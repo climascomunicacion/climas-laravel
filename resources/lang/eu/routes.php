@@ -3,7 +3,7 @@
 // app/lang/eu/routes.php
 
 return array(
-    'contact' => 'contact',
-    'about'   => 'about-us',
-    'welcome' => 'ongi-etorri'
+    'contact' => 'kontaktua',
+    'climas'   => 'climas',
+    'services' => 'zerbitzuak'
 );

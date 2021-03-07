@@ -4,6 +4,6 @@
 
 return array(
     'contact' => 'contacto',
-    'about'   => 'sobre-nosotros',
-    'welcome' => 'bienvenido'
+    'climas'   => 'climas',
+    'services' => 'servicios'
 );
