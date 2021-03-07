@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::middleware([])->group(function () {
-    
-    Route::multilingual('welcome')->view('welcome');
-    Route::multilingual('about')->view('about');
+    Route::multilingual('climas')->view('climas');
+    Route::multilingual('contact')->view('contact');
+    Route::multilingual('services')->view('services');
     Route::multilingual('/')->view('home', ["page" => "home"]);
 });
