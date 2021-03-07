@@ -1,7 +1,7 @@
 <h2>Arrancar Docker</h2>
 <p>Ejecutar:</p>
 
-`./vendor/bin/sail up`
+> ./vendor/bin/sail up
 
 
 <p>Entrar en la web:</p>
