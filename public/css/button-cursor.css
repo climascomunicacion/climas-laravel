@@ -1,0 +1,28 @@
+body {
+	--cursor-stroke: #f1e9c2;
+    --cursor-fill: #f1e9c2;
+    --cursor-stroke-width: 1px;
+}
+
+
+
+@media (any-pointer: fine) {
+	.cursor {
+		top: 0;
+		left: 0;
+		display: block;
+		pointer-events: none;
+		position: absolute; 
+	}
+	.cursor__inner {
+		color:#000;
+		fill: var(--cursor-fill);
+		stroke: var(--cursor-stroke);
+		stroke-width: var(--cursor-stroke-width);
+	}
+	.credits {
+		padding-left: 25vw;
+	}
+}
+
+@media (max-width: 992px) {.cursor {display: none;}}
