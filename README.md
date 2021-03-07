@@ -5,7 +5,7 @@
 
 
 <p>Entrar en la web:</p>
-http://localhost
+<http://localhost>
 
 <h2>Actualizar traducciones</h2>
 <p>Ejecutar:</p>
