@@ -9,7 +9,7 @@
 <section class="services-container">
     <article class="que-necesitas">
         <div class="container">
-            <h2>¿Tomamos un café?</h2>
+            <h2>¿Tomamos un café???</h2>
             <div class="content">
                 <p>Cuéntanos tu idea, queremos ser uno + en tu proyecto.</p>
             </div>
