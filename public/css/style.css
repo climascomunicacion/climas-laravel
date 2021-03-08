@@ -153,13 +153,19 @@ a.button svg {width: 20px; margin: -9px 0 -7px 40px; color: #273157;}
 a.button.button-white svg { color: #fff; }
 
 /*HOME*/
-.intro-home {display:flex; }
-.intro-content { width: 100%; height: 100vh; float: right; background-image: url(../img/bg-comunicacion.jpg); background-repeat: no-repeat; background-size: 68%; background-position: right;}
-@media (max-width: 820px) {.intro-content { background-size:100%; background-position: bottom;}}
+/*.intro-content { width: 100%; height: 100vh; float: right; background-image: url(../img/bg-comunicacion.jpg); background-repeat: no-repeat; background-size: 68%; background-position: right top;}
+@media (max-width: 820px) {.intro-content { background-size:100%; background-position: center;}}
+*/
+.intro-content .container {position: absolute;}
+.intro-content img.comunicacion { position: relative; width: 75%; float: right; z-index: -9; }
+@media (max-width: 820px) {
+    .intro-content .container {position: inherit;}
+    .intro-content img.comunicacion {position: inherit; width: 100%; margin-top:-50px;}
+}
 .intro-content .recurso { position: absolute; width: 30%; right: 0; top: 40%;}
 .intro-content .recurso img { width:100%; transition: 1s; margin-left: 50px; transition-property:  }
-.intro-content h2 { left: 0; font-size: 4em; line-height: 1.3em; margin: 25% 0 0 0; max-width: 500px; }
-@media (max-width: 820px) {.intro-content h2{ font-size: 3em; line-height: 1em; margin: 24vh 0 0 0}.intro-content h2 img{ width: 50px; }.intro-content .recurso { width: 80%; bottom:-3px; }}
+.intro-content h2 { left: 0; font-size: 4em; line-height: 1.3em; max-width: 500px; margin-top: 10%;;}
+@media (max-width: 820px) {.intro-content h2{ font-size: 3em; line-height: 1em;}.intro-content h2 img{ width: 50px; }.intro-content .recurso { width: 80%; bottom:-3px; }}
 .index-container h2 { font-size: 3em; margin-bottom: .5em;  }
 .index-container h4 {font-size: 1.5em; margin-bottom: 1.5em;}
 .climas { padding: 20em 0; }
@@ -170,7 +176,8 @@ a.button.button-white svg { color: #fff; }
 .equipo .txt { width: 50%; }
 @media (max-width: 820px) {.equipo .txt { width: 100%; }}
 .equipo .txt ul {margin: 40px 0 0 0;}
-.equipo .txt li {font-size: 1.2em; margin-bottom: 1em; color:#273157;}
+.equipo .txt li {font-size: 1.2em; margin-bottom: 2em; color:#273157;}
+.equipo .txt li svg {width: 20px; margin: 0 10px -13px 0;}
 .services{padding: 10em 0; text-align: center;}
 .services .txt {display: -webkit-box;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;flex-direction: row;-webkit-box-pack: justify;justify-content: space-between; -webkit-box-align: start;align-items: flex-start;flex-wrap: nowrap;width: 100%;margin-top:95px;}
 .services .txt .item { padding: 0 38px; text-align: left; width: 100%; }
@@ -324,15 +331,25 @@ a.button.button-white svg { color: #fff; }
 .legal-container { margin: 8em 0 0 0 }
 .legal-container h3 { font-weight: bold; text-transform: uppercase; font-size: 1.2em; margin: 2.5em 0 1em }
 
+.contact-footer {padding: 10em 0 0 0;}
+.contact-footer .container {padding: 0 5em;}
+.contact-footer .container .bg-grey {padding: 5em; box-shadow: -20px -20px 0px 0 #ce6a6b; position: relative; }
+.contact-footer .container a.link {color: #ce6a6b; position: relative; padding: 0 0 2px 0; font-weight: bold;}
+.contact-footer .container a.link:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 2px; background: #ce6a6b; -webkit-transition: all .5s ease; transition: all .5s ease;}
+.contact-footer .container a.link:hover:after {width: 100%;}
+.contact-footer .container .tel { font-size: 1.8em; display: block; color:#273157; margin: 100px 0 20px 0; }
+.contact-footer .container .tel:hover {color:#ce6a6b; transition: .6s;}
+.contact-footer .container .rrss {position: absolute; right: 5em; bottom:4em;}
+.contact-footer .container .rrss ul li {display: inline-block; margin-left: 25px;}
+.contact-footer .container .rrss ul li svg {fill:#273157;}
+.contact-footer .container .rrss ul li svg:hover {-webkit-transition: all .5s ease; transition: all .5s ease; fill: #ce6a6b;}
+@media (max-width: 820px) {
+    .contact-footer h2 {font-size: 2em;}
+    .contact-footer .container .bg-grey {padding: 25px;}
+    .contact-footer .container .rrss{ position: initial;}
+    .contact-footer .container .rrss ul li {margin:25px 25px 0 0}
+}
 /*FOOTER*/
-footer {padding: 10em 0 0; }
-footer .container { padding: 0 5em; }
-footer .txt {padding: 5em; box-shadow: -20px -20px 0px 0 #ce6a6b; }
-footer a.link {color: #ce6a6b; position: relative; padding: 0 0 2px 0; font-weight: bold;}
-footer a.link:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 2px; background: #ce6a6b; -webkit-transition: all .5s ease; transition: all .5s ease;}
-footer a.link:hover:after {width: 100%;}
-footer .tel { font-size: 1.8em; display: block; color:#273157; margin: 100px 0 20px 0; }
-footer .tel:hover {color:#ce6a6b; transition: .6s;}
 footer .nav-footer { width: 100%; margin-top: -150px; padding: 12em 0 4em; position: absolute; ; z-index: -9; }
 footer .nav-footer .container {display: -webkit-box;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;flex-direction: row;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: start;align-items: flex-start;flex-wrap: nowrap;width: 100%;}
 footer .nav-footer .container ul { display: flex; }
@@ -340,14 +357,16 @@ footer .nav-footer .container ul li {margin: 0 15px;}
 footer .nav-footer .container a {color: #fff; cursor: pointer;}
 footer .nav-footer .container a:hover { color:#ce6a6b; transition: .6s; }
 @media (max-width: 820px) {
-  footer h2 { font-size: 2em }
   footer .nav-footer .container {display: block; padding: 4em 3em 0px;}
-  footer .txt {padding: 25px;}
   footer .nav-footer .container ul { display: aling-flex; }
   footer .nav-footer .container ul:nth-child(1) { border-bottom: 1px solid #fff; margin-bottom: 20px; padding-bottom: 20px; }
   footer .nav-footer .container ul li { margin: 0 20 px 0 0 ; text-align: center; }
 }
 
+/*COOKIES*/
+#box-cookies { display: none; position: fixed; bottom:0; padding: 3em 0 2em; width: 100%; color: #273157;}
+#box-cookies p {font-size: 1em; margin-top: 20px;;}
+#box-cookies a.button {margin-top: 50px;}
 
 
 

@@ -17,10 +17,10 @@
         <div class="container-menu">
             <nav>
                 <ul class="menu">
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">CLI +</a></li>
-                    <li><a href="">Servicios</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="home.php">@lang('inicio')</a></li>
+                    <li><a href="climas.php">@lang('cli +')</a></li>
+                    <li><a href="services.php">@lang('servicios')</a></li>
+                    <li><a href="contact.php">@lang('contacto')</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,10 +41,10 @@
             </div>
             <div class="aside-section aside-right">
               <ul class="aside-list">
-                <li><a href="" class="aside-anchor">Inicio</a></li>
-                <li><a href="" class="aside-anchor">CLI +</a></li>
-                <li><a href="" class="aside-anchor">Servicios</a></li>
-                <li><a href="" class="aside-anchor">Contacto</a></li>
+                <li><a href="home.php" class="aside-anchor">@lang('inicio')</a></li>
+                <li><a href="climas.php" class="aside-anchor">@lang('cli +')</a></li>
+                <li><a href="services.php" class="aside-anchor">@lang('servicios')</a></li>
+                <li><a href="contact.php" class="aside-anchor">@lang('contacto')</a></li>
               </ul>
             </div>
           </aside>
