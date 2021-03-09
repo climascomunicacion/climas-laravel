@@ -8,12 +8,13 @@
     <title>@hasSection('title') @yield('title') @endif</title>
     <meta name="description" content="@hasSection('description')@yield('description')@endif">
 
-    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('favicon/favicon.ico') }}">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link href="{{ asset('css/button-cursor.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('css/fonts.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('css/menu.css') }}" rel="stylesheet" type="text/css" />
@@ -52,7 +53,7 @@
     
     @include('partials.footer')
     </div>
-    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('js/scripts.js') }}"></script>
     <script src="{{ asset('js/emblem.js') }}"></script>
