@@ -17,8 +17,8 @@
         <div class="container-menu">
             <nav>
                 <ul class="menu">
-                    <li><a href="home.php">@lang('inicio')</a></li>
-                    <li><a href="climas.php">@lang('cli +')</a></li>
+                    <li><a href="#">@lang('inicio')</a></li>
+                    <li><a href="#">@lang('cli +')</a></li>
                     <li><a href="services.php">@lang('servicios')</a></li>
                     <li><a href="contact.php">@lang('contacto')</a></li>
                 </ul>

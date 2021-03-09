@@ -10,7 +10,7 @@
 .navigation .menu li  {margin: 0 15px; display: inline-block; transition: all 0.2s ease; font-size: 14px; color: #273157;text-transform: uppercase; vertical-align: middle;}
 
 /*menú para las páginas que NO es home*/
-.navigation.navigation-white {background: none;}
+.navigation.navigation-white {background: none; position: absolute;}
 .navigation.navigation-white .logo svg { fill: #fff !important;  }
 .navigation.navigation-white .menu li a{color: #fff !important;}
 .navigation.navigation-white .lang .menu-lang li {color: #ce6a6b;}
