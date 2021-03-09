@@ -43,7 +43,7 @@
                     </div>
                     <div class="check">
                         <input id="avisoLegal" name="avisoLegal" type="checkbox" value="true" required/>
-                        <label for="avisoLegal">@lang('He leído y acepto la') <a href="#" title="Leer infomración legal">@lang('información legal')</a>
+                        <label for="avisoLegal">@lang('He leído y acepto la') <a href="{{ localized_route('legal') }}" title="Leer infomración legal">@lang('información legal')</a>
                         </label>
                         <p class="error">@lang('Es necesario aceptar lainformación legal')</p>
                     </div>
