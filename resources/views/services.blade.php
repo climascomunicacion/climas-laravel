@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('title', __('CLI+ comunicación'))
-@section('description', __(''))
+@section('title', __('Descubre todo lo que CLI+ Comunicación puede hacer por ti y tu negocio.'))
+@section('description', __('Somos expertas en el ámbito digital, pero tenemos todo tipo de servicios de marketing personalizados. Cuéntanos lo que necesitas y trabajemos juntos.'))
 
 
 
