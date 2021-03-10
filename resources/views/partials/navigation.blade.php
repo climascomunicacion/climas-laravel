@@ -1,7 +1,8 @@
 
-    @if($page ?? '' == 'home')
+    @if($page ?? '' == 'home' || '404')
         <section class="intro-home">
         <div class="navigation">
+            
     @else
         <section class="intro">
         <div class="navigation navigation-white">

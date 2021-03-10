@@ -369,6 +369,13 @@ footer .nav-footer .container a:hover { color:#ce6a6b; transition: .6s; }
 #box-cookies p {font-size: 1em; margin-top: 20px;;}
 #box-cookies a.button {margin-top: 50px;}
 
+/*404*/
+.page-404  {padding: 0 0 14em; display: block;}
+.page-404 .container img {width: 90%; display: block; margin: 0 auto; }
+.page-404 .container .txt {text-align: center;}
+.page-404 .container .txt h2 { margin-bottom: 20px;}
+.page-404 .container .txt .button {margin-top: 40px;}
+
 
 
 
