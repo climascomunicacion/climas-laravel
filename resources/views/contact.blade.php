@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title', __('¿Tomamos un café? Contacta con nosotras, queremos ser uno + en tu proyecto'))
-@section('Queremos formar parte de proyecto y ayudarte a conseguir tus objetivos desde el marketing. ¿Quedamos y nos conocemos?', __(''))
+@section('description', __('Queremos formar parte de proyecto y ayudarte a conseguir tus objetivos desde el marketing. ¿Quedamos y nos conocemos?'))
 
 
 
