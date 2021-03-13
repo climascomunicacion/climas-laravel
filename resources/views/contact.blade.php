@@ -60,6 +60,11 @@
                     </div>
                 </button>
             </form>
+            @if(Session::has('success'))
+                <div class="success">
+                    <p>@lang('Hemos recibido tu mensaje, en breve nos pondremos en contacto contigo')</p>
+                </div>
+            @endif
             </div>
         </div>
     </article>
