@@ -38,4 +38,13 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    protected function renderHttpException(HttpExceptionInterface $e)
+{
+    if (app()->environment() !== 'production' && config('app.debug')) {
+        return $this->convertExceptionToResponse($e);
+    }
+
+    return parent::renderHttpException($e);
+}
 }

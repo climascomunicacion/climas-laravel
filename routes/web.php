@@ -23,7 +23,7 @@ Route::middleware([])->group(function () {
     Route::multilingual('cookies')->view('cookies');
     Route::multilingual('climas')->view('climas');
     Route::multilingual('contact', 'App\Http\Controllers\ContactController@showForm');
-    Route::multilingual('contact', 'App\Http\Controllers\ContactController@storeForm')->name('contact.save')->method('post');
+    Route::multilingual('contact', 'App\Http\Controllers\ContactController@storeForm')->method('post')->name('contact.save');
     Route::multilingual('services')->view('services');
     Route::multilingual('/')->view('home', ["page" => "home"]);
 });

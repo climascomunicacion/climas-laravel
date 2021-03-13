@@ -25,27 +25,35 @@
             </div>
             <div class="form">
                 <p class="uppercase">@lang('Si lo prefieres rellena este formulario:')</p>
-                <form method="post" id="formulario-contacto">
+                <form method="post" id="formulario-contacto" action="{{ localized_route('contact.save') }}">
                     <div >
                         <label for="nombre">@lang('Nombre')</label>
                         <input id="nombre" name="nombre" type="text" value="" placeholder="nombre" />
+                        @if ($errors->has('nombre'))
                         <p class="error">@lang('El campo nombre es obligatorio.')</p>
+                        @endif
                     </div>
                     <div >
                         <label for="email">@lang('email')</label>
                         <input id="email" name="email" type="text" value="" placeholder="emal" />
+                        @if ($errors->has('email'))
                         <p class="error">@lang('El campo email es obligatorio.')</p>
+                        @endif
                     </div>
                     <div class="textarea">
                         <label for="comentario">@lang('comentario')</label> 
                         <textarea name="comentario" id="comentario" rows="10"></textarea>
-                        <p class="error">@lang('El campo comentario es obligatorio.')</p> 
+                        @if ($errors->has('comentario'))
+                        <p class="error">@lang('El campo comentario es obligatorio.')</p>
+                        @endif
                     </div>
                     <div class="check">
-                        <input id="avisoLegal" name="avisoLegal" type="checkbox" value="true" required/>
-                        <label for="avisoLegal">@lang('He leído y acepto la') <a href="{{ localized_route('legal') }}" title="Leer infomración legal">@lang('información legal')</a>
+                        <input id="checkbox" name="checkbox" type="checkbox" value="true" required/>
+                        <label for="checkbox">@lang('He leído y acepto la') <a href="{{ localized_route('legal') }}" title="@lang('Leer infomración legal')">@lang('información legal')</a>
                         </label>
+                        @if ($errors->has('checkbox'))
                         <p class="error">@lang('Es necesario aceptar lainformación legal')</p>
+                        @endif
                     </div>
                     <div class="boton">
                         <input class="button bg-pink" type="submit" value="Enviar" id="enviar" name="enviar">

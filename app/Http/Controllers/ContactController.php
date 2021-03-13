@@ -16,7 +16,8 @@ class ContactController extends Controller
       $this->validate($request, [
         'nombre' => 'required',
         'email' => 'required|email',
-        'comentario' => 'required'
+        'comentario' => 'required',
+        'checkbox' =>'accepted'
      ]);
 
      ContactUs::create($request->all());
