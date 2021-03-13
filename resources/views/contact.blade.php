@@ -37,8 +37,8 @@
                         <p class="error">@lang('El campo email es obligatorio.')</p>
                     </div>
                     <div class="textarea">
-                        <label for="description">@lang('comentario')</label> 
-                        <textarea name="description" id="comentario" rows="10"></textarea>
+                        <label for="comentario">@lang('comentario')</label> 
+                        <textarea name="comentario" id="comentario" rows="10"></textarea>
                         <p class="error">@lang('El campo comentario es obligatorio.')</p> 
                     </div>
                     <div class="check">
