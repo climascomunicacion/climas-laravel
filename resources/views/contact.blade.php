@@ -37,25 +37,27 @@
             </div>
             <div class="form">
                 <p class="uppercase">@lang('Si lo prefieres rellena este formulario:')</p>
+                
                 <form method="post" id="formulario-contacto" action="{{ localized_route('contact.save') }}">
                     @csrf
+                    @if(!Session::has('success'))
                     <div >
                         <label for="nombre">@lang('Nombre')</label>
-                        <input id="nombre" name="nombre" type="text" value="" placeholder="nombre" />
+                        <input id="nombre" name="nombre" type="text" value="{{ old('nombre') }}" placeholder="nombre" />
                         @if ($errors->has('nombre'))
                         <p class="error">@lang('El campo nombre es obligatorio.')</p>
                         @endif
                     </div>
                     <div >
                         <label for="email">@lang('email')</label>
-                        <input id="email" name="email" type="text" value="" placeholder="emal" />
+                        <input id="email" name="email" type="text" value="{{ old('email') }}" placeholder="emal" />
                         @if ($errors->has('email'))
                         <p class="error">@lang('El campo email es obligatorio.')</p>
                         @endif
                     </div>
                     <div class="textarea">
                         <label for="comentario">@lang('comentario')</label> 
-                        <textarea name="comentario" id="comentario" rows="10"></textarea>
+                        <textarea name="comentario" id="comentario" rows="10">{{ old('comentario') }}</textarea>
                         @if ($errors->has('comentario'))
                         <p class="error">@lang('El campo comentario es obligatorio.')</p>
                         @endif
@@ -72,7 +74,9 @@
                         <input class="button bg-pink" type="submit" value="Enviar" id="enviar" name="enviar">
                     </div>
                 </button>
+                @endif
             </form>
+            
             @if(Session::has('success'))
                 <div class="success">
                     <p>@lang('Hemos recibido tu mensaje, en breve nos pondremos en contacto contigo')</p>

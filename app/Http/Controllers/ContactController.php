@@ -31,7 +31,7 @@ class ContactController extends Controller
         $message->to('iulene90@gmail.com', 'Climas comuniación')->subject('Mensaje de contacto desde climascomunicacion.com'); //contactoweb@climascomunicacion.com
     });
 
-    return back()->with('success', 'Gracias por ponerse en contacto.');
+    return back()->with('success', 'Gracias por ponerse en contacto.')->withInput();
   }
 
 }
