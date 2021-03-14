@@ -1,7 +1,12 @@
-<h2>Cli+ Comunicación</h2>
+<head>
+    <style>
+        p.title {}
+    </style>
+</head>
+<h2 class=·>Cli+ Comunicación</h2>
 <p>Email recivido de: {{ $nombre }}</p> 
 
-<p>Información del contacto:</p> 
+<p style="color:#">Información del contacto:</p> 
 
     <p>Nombre: {{ $nombre }}</p> 
     <p>Email: {{ $email }}</p> 
