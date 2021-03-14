@@ -17,6 +17,10 @@
 <section class="legal-container">
     <article>
         <div class="container ">
+            <!-- Cookibot -->
+            <script id="CookieDeclaration" src="https://consent.cookiebot.com/bc7641b0-ac83-4a55-bc19-82e91c96ee25/cd.js" type="text/javascript" async></script>
+
+            <!-- Fin Cookiebot -->
            <p>Este sitio web, usa Cookies para mejorar y optimizar la experiencia del usuario. A continuación encontrarás información detallada sobre qué son las “Cookies”, qué tipología utiliza este sitio web, cómo puedes desactivarlas en tu navegador y cómo bloquear específicamente la instalación de Cookies de terceros.</p> 
 
            <h3>¿Qué son las Cookies y cómo las utilizan los sitios web del CLIENTE?</h3>

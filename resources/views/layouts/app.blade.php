@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+
+    <!-- Cookiebot -->
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="bc7641b0-ac83-4a55-bc19-82e91c96ee25" data-blockingmode="auto" type="text/javascript"></script>
+    
+    
+    <script data-cookieconsent="ignore">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("consent", "default", {
+            ad_storage: "denied",
+            analytics_storage: "denied",
+            wait_for_update: 500
+        });
+        gtag("set", "ads_data_redaction", true);
+    </script>
+    <!-- End Cookiebot -->
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
