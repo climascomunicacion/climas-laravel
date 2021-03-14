@@ -1,8 +1,8 @@
 <h2>Cli+ Comunicación</h2>
-Email recivido de: {{ $name }}
+<p>Email recivido de: {{ $nombre }}</p> 
 
-Información del contacto:
+<p>Información del contacto:</p> 
 
-Nombre: {{ $nombre }}
-Email: {{ $email }}
-Mensage: {{ $comentario }}
+    <p>Nombre: {{ $nombre }}</p> 
+    <p>Email: {{ $email }}</p> 
+    <p>Mensage: {{ $comentario }}</p> 

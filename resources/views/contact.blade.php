@@ -26,6 +26,7 @@
             <div class="form">
                 <p class="uppercase">@lang('Si lo prefieres rellena este formulario:')</p>
                 <form method="post" id="formulario-contacto" action="{{ localized_route('contact.save') }}">
+                    @csrf
                     <div >
                         <label for="nombre">@lang('Nombre')</label>
                         <input id="nombre" name="nombre" type="text" value="" placeholder="nombre" />
