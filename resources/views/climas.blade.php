@@ -52,23 +52,46 @@
                <p>@lang('Trabajo en equipo, pasión, confianza, profesionalidad, transparencia y compromiso son algunas de las palabras que nos definen.')</p>
                <p>@lang('Si quieres conocernos mejor echa un ojo más abajo:')</p>
            </div>
-           <div class="components">
+           <div class="components2">
                <div class="item">
-                    <img src="">
-                   <h4>@lang('Carla Añón')</h4>
-                   <p>@lang('De pequeña era un hacha en matemáticas. Superwoman que sobrepasa la capacidad humana estándar para el Multitasking. Posee más de 1TB de memoria interna. Birra y queso es su combinación ganadora.')</p>
+                    <img src="img/lara-maisueche.gif">
+                    <div class="txt">
+                        <h4>@lang('Carla Añón')</h4>
+                        <p>@lang('De pequeña era un hacha en matemáticas. Superwoman que sobrepasa la capacidad humana estándar para el Multitasking. Posee más de 1TB de memoria interna. Birra y queso es su combinación ganadora.')</p>
+                    </div>
+               </div>
+               <div class="item lara">
+                    <img src="img/lara-maisueche.gif">
+                    <div class="txt">
+                        <h4>@lang('Lara Maisueche')</h4>
+                        <p>@lang('Nuestra propia agenda humana, ¡no se le escapa una! Amante de las listas y los hashtags. Alcanza la velocidad del rayo escribiendo, aunque lo haga con un solo dedo. Alma organizadora y promotora del movimiento #marianitotime.')</p>
+                    </div>
                </div>
                <div class="item">
-                    <img src="">
-                   <h4>@lang('Lara Maisueche')</h4>
-                   <p>@lang('Nuestra propia agenda humana, ¡no se le escapa una! Amante de las listas y los hashtags. Alcanza la velocidad del rayo escribiendo, aunque lo haga con un solo dedo. Alma organizadora y promotora del movimiento #marianitotime.')</p>
-               </div>
-               <div class="item">
-                    <img src="">
-                   <h4>@lang('Iulene Miguel')</h4>
-                   <p>@lang('La reina del pantone. La frase "quedarse en blanco" no se encuentra dentro de su vocabulario. Con su varita mágica pone color a nuestras ideas.  Constante y madrugadora crosffitter. No se pierde un pintxopote.') </p>
+                    <img src="img/lara-maisueche.gif">
+                    <div class="txt">
+                        <h4>@lang('Iulene Miguel')</h4>
+                        <p>@lang('La reina del pantone. La frase "quedarse en blanco" no se encuentra dentro de su vocabulario. Con su varita mágica pone color a nuestras ideas.  Constante y madrugadora crosffitter. No se pierde un pintxopote.') </p>
+                    </div>
                </div>
            </div>
+
+           <div class="components">
+            <div class="item">
+                 <img src="">
+                <h4>@lang('Carla Añón')</h4>
+                <p>@lang('De pequeña era un hacha en matemáticas. Superwoman que sobrepasa la capacidad humana estándar para el Multitasking. Posee más de 1TB de memoria interna. Birra y queso es su combinación ganadora.')</p>
+            </div>
+            <div class="item">
+                <h4>@lang('Lara Maisueche')</h4>
+                <p>@lang('Nuestra propia agenda humana, ¡no se le escapa una! Amante de las listas y los hashtags. Alcanza la velocidad del rayo escribiendo, aunque lo haga con un solo dedo. Alma organizadora y promotora del movimiento #marianitotime.')</p>
+            </div>
+            <div class="item">
+                 <img src="">
+                <h4>@lang('Iulene Miguel')</h4>
+                <p>@lang('La reina del pantone. La frase "quedarse en blanco" no se encuentra dentro de su vocabulario. Con su varita mágica pone color a nuestras ideas.  Constante y madrugadora crosffitter. No se pierde un pintxopote.') </p>
+            </div>
+        </div>
         </div>
     </article>
 </section>
@@ -76,7 +99,7 @@
     <div class="container">
         <div class=" bg-grey">
             <div class="txt">
-                <h2>@lang('¿Tomamos un café?')</h2>
+                <h3>@lang('Queremos conocerte, ponte en contacto con nosotras')</h3>
                 <a href="tel:666 888 999" class="tel">@lang('747 425 053')</a>
                 <a class="link" href="mailto:hola@climascomunicacion.com">@lang('hola@climascomunicacion.com')</a>
             </div>

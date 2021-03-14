@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', __('Descubre todo lo que CLI+ Comunicación puede hacer por ti y tu negocio.'))
+@section('title', __('CLI+ | Descubre lo que podemos hacer por ti y tu negocio'))
 @section('description', __('Somos expertas en el ámbito digital, pero tenemos todo tipo de servicios de marketing personalizados. Cuéntanos lo que necesitas y trabajemos juntos.'))
 
 
@@ -99,7 +99,7 @@
     <div class="container">
         <div class=" bg-grey">
             <div class="txt">
-                <h2>@lang('¿Tomamos un café?')</h2>
+                <h3>@lang('¿Sabes lo que necesitas? Pídenos presupuesto')</h3>
                 <a href="tel:666 888 999" class="tel">747 425 053</a>
                 <a class="link" href="mailto:hola@climascomunicacion.com">hola@climascomunicacion.com</a>
             </div>

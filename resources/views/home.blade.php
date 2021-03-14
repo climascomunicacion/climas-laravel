@@ -92,7 +92,7 @@
     <div class="container">
         <div class=" bg-grey">
             <div class="txt">
-                <h2>@lang('¿Tomamos un café?')</h2>
+                <h3>@lang('¿Tomamos un café?')</h3>
                 <a href="tel:666 888 999" class="tel">747 425 053</a>
                 <a class="link" href="mailto:hola@climascomunicacion.com">hola@climascomunicacion.com</a>
             </div>

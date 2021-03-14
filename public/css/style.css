@@ -231,6 +231,17 @@ a.button.button-white svg { color: #fff; }
 .teams .components .item h4 { position: relative; padding-bottom: 10px; font-weight: 300; color: #273157}
 .teams .components .item h4:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 3px; background: #ce6a6b;}
 
+
+.teams .components2 {}
+.teams .components2 .item {display: -webkit-box;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;flex-direction: row;-webkit-box-pack: justify;justify-content: space-between; -webkit-box-align: start;align-items: flex-start;flex-wrap: nowrap;width: 100%;}
+.teams .components2 .item img {width: 50%;}
+.teams .components2 .item .txt {padding: 30px;}
+@media (max-width: 820px) {.teams .components2{ display: block; }.teams .components2 .item {width: 100%; margin-bottom:30px; }}
+.teams .components2 .item h4 { position: relative; padding-bottom: 10px; font-weight: 300; color: #273157}
+.teams .components2 .item h4:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 3px; background: #ce6a6b;}
+.teams .components2 .item.lara {flex-flow: row-reverse}
+
+
 /*SERVICES*/
 .services-container .que-necesitas { padding: 8em 0 2em;}
 .services-container .que-necesitas h2 { font-size: 2.2em; font-weight: 300; margin-bottom: 2em; }
@@ -307,6 +318,7 @@ a.button.button-white svg { color: #fff; }
 .form-container .txt a.link:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 2px; background: #fff; -webkit-transition: all .5s ease; transition: all .5s ease;}
 .form-container .txt a.link:hover:after {width: 100%;}
 .form-container .txt a.link-whatsapp {display: block; margin-top: 10px; font-weight: bold; margin-top: 30px;}
+.form-container .txt a.link-whatsapp .icon { width: 26px; margin-right: 5px;; fill:#273157;}
 .form-container .txt a.link-whatsapp svg {width: 21px; margin-bottom: -8px;}
 .form-container .tel { font-size: 2.8em; display: block; color:#273157; margin: 0 0 20px 0; }
 .form-container .tel:hover {color:#fff; transition: .6s;}
@@ -317,6 +329,7 @@ a.button.button-white svg { color: #fff; }
 .form-container .form input::placeholder {color: #273157; text-transform: uppercase;}
 .form-container .form .button {color: #273157; padding: 15px 45px; margin-top: 2em;}
 .form-container .form .button:hover {color: #fff;}
+.form-container .form .error {    display: block; width: 100%; color: #f1e9c2; font-style: italic; font-size: .75em; margin-bottom: 1em; margin-top: -1em}
 .form-container .form .textarea label { display: inline-block; margin-bottom: 1em; color: #273157; text-transform: uppercase;}
 .form-container .form  div.check label {display: inline-block; margin-bottom: 1em; color: #273157; position: relative; padding-left: 2em;}
 .form-container .form  div.check input {display: none;}
@@ -335,6 +348,7 @@ a.button.button-white svg { color: #fff; }
 .contact-footer {padding: 10em 0 0 0;}
 .contact-footer .container {padding: 0 5em;}
 .contact-footer .container .bg-grey {padding: 5em; box-shadow: -20px -20px 0px 0 #ce6a6b; position: relative; }
+.contact-footer .container h3 { font-size: 3em; line-height: 1.2em;}
 .contact-footer .container a.link {color: #ce6a6b; position: relative; padding: 0 0 2px 0; font-weight: bold;}
 .contact-footer .container a.link:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 2px; background: #ce6a6b; -webkit-transition: all .5s ease; transition: all .5s ease;}
 .contact-footer .container a.link:hover:after {width: 100%;}
@@ -345,7 +359,7 @@ a.button.button-white svg { color: #fff; }
 .contact-footer .container .rrss ul li svg {fill:#273157;}
 .contact-footer .container .rrss ul li svg:hover {-webkit-transition: all .5s ease; transition: all .5s ease; fill: #ce6a6b;}
 @media (max-width: 820px) {
-    .contact-footer h2 {font-size: 2em;}
+    .contact-footer h3 {font-size: 2em;}
     .contact-footer .container .bg-grey {padding: 25px;}
     .contact-footer .container .rrss{ position: initial;}
     .contact-footer .container .rrss ul li {margin:25px 25px 0 0}
