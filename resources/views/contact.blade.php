@@ -49,7 +49,7 @@
                         @endif
                     </div>
                     <div class="check">
-                        <input id="checkbox" name="checkbox" type="checkbox" value="true" required/>
+                        <input id="checkbox" name="checkbox" type="checkbox" value="true"/>
                         <label for="checkbox">@lang('He leído y acepto la') <a href="{{ localized_route('legal') }}" title="@lang('Leer infomración legal')">@lang('información legal')</a>
                         </label>
                         @if ($errors->has('checkbox'))
@@ -72,3 +72,7 @@
 </section>
    
 @endsection
+
+@if ($errors->count() > 0 || Session::has('success') )
+    <script>window.location = '#formulario-contacto';</script>
+@endif
