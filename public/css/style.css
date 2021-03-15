@@ -146,9 +146,9 @@ h3 strong {
 @media (max-width: 820px) {.button {font-size: 1em;}}
 .button:hover {  background: #273157; color: #fff; -webkit-transition: all .7s ease; transition: all .7s ease;}
 .button:hover svg {color:#fff;}
-a.button.button-white{border: 2px solid #fff; color: #fff}
-a.button.button-white:hover { background: #fff; color:#273157; }
-a.button.button-white:hover svg {color: #273157;}
+.button.button-white{border: 2px solid #fff; color: #fff}
+.button.button-white:hover { background: #fff; color:#273157; }
+.button.button-white:hover svg {color: #273157;}
 a.button svg {width: 20px; margin: -9px 0 -7px 40px; color: #273157;}
 a.button.button-white svg { color: #fff; }
 
@@ -317,20 +317,20 @@ a.button.button-white svg { color: #fff; }
 .form-container .txt a.link {color: #fff; position: relative; padding: 0 0 2px 0; font-weight: bold;}
 .form-container .txt a.link:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 2px; background: #fff; -webkit-transition: all .5s ease; transition: all .5s ease;}
 .form-container .txt a.link:hover:after {width: 100%;}
-.form-container .txt a.link-whatsapp {display: block; margin-top: 10px; font-weight: bold; margin-top: 30px;}
+.form-container .txt a.link-whatsapp {display: block; margin-top: 10px; font-weight: bold; margin-top: 30px; width: max-content;}
 .form-container .txt a.link-whatsapp .icon { width: 26px; margin-right: 5px;; fill:#273157;}
 .form-container .txt a.link-whatsapp svg {width: 21px; margin-bottom: -8px;}
 .form-container .tel { font-size: 2.8em; display: block; color:#273157; margin: 0 0 20px 0; }
 .form-container .tel:hover {color:#fff; transition: .6s;}
 .form-container .form { width: 50%; }
 .form-container .form label {display: none; padding: 0 1em;}
-.form-container .form input[type=text],.form-container .form input[type=checkbox], .form-container .form textarea {width: 100%; background: none; border: 3px solid #273157; padding: 1em; -webkit-transition: all .5s ease; transition: all .5s ease; margin-bottom: 20px;}
-.form-container .form input[type=text] {border: none; border-bottom: 3px solid #273157;}
-.form-container .form input::placeholder {color: #273157; text-transform: uppercase;}
-.form-container .form .button {color: #273157; padding: 15px 45px; margin-top: 2em;}
-.form-container .form .button:hover {color: #fff;}
+.form-container .form input[type=text],.form-container .form input[type=checkbox], .form-container .form textarea {width: 100%; background: none; border: 2px solid #273157; padding: 1em; -webkit-transition: all .5s ease; transition: all .5s ease; margin-bottom: 20px;}
+.form-container .form input[type=text] {border: none; border-bottom: 2px solid #273157;}
+.form-container .form input::placeholder {color: #273157; font-size: 0.9em; font-style: italic; }
+.form-container .form input:focus, textarea:focus {outline:none !important; outline-width: 0 !important; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+.form-container .form .button {color: #fff; padding: 15px 45px; margin-top: 2em;}
 .form-container .form .error {    display: block; width: 100%; color: #f1e9c2; font-style: italic; font-size: .75em; margin-bottom: 1em; margin-top: -1em}
-.form-container .form .textarea label { display: inline-block; margin-bottom: 1em; color: #273157; text-transform: uppercase;}
+.form-container .form .textarea label { display: inline-block; margin-bottom: 1em; color: #273157; }
 .form-container .form  div.check label {display: inline-block; margin-bottom: 1em; color: #273157; position: relative; padding-left: 2em;}
 .form-container .form  div.check input {display: none;}
 .form-container .form  div.check label a {text-decoration: underline; }

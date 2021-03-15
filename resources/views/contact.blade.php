@@ -28,7 +28,7 @@
     <article class="form-container bg-pink">
         <div class="container col-umn-2">
             <div class="txt">
-                <p class="uppercase">@lang('puedes contactarnos en:')</p>
+                <p >@lang('puedes contactarnos en:')</p>
                 <a href="tel:666 888 999" class="tel">747 425 053</a>
                 <a class="link" href="mailto:hola@climascomunicacion.com">hola@climascomunicacion.com</a>
                 <a class="link-whatsapp" href="https://wa.me/34747425053">
@@ -36,7 +36,7 @@
                     whatsapp  </a>
             </div>
             <div class="form">
-                <p class="uppercase">@lang('Si lo prefieres rellena este formulario:')</p>
+                <p>@lang('Si lo prefieres rellena este formulario:')</p>
                 
                 <form method="post" id="formulario-contacto" action="{{ localized_route('contact.save') }}">
                     @csrf
@@ -70,8 +70,8 @@
                         <p class="error">@lang('Es necesario aceptar la información legal')</p>
                         @endif
                     </div>
-                    <div class="boton">
-                        <input class="button bg-pink" type="submit" value="Enviar" id="enviar" name="enviar">
+                    <div class="boton boton-white">
+                        <input class=" button-white button bg-pink" type="submit" value="Enviar" id="enviar" name="enviar">
                     </div>
                 </button>
                 @endif

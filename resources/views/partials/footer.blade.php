@@ -2,7 +2,7 @@
     <section class="nav-footer bg-blue">
         <div class="container">
             <ul>
-                <li><p class="text-white">© CLI +</p></li>
+                <li><p class="text-pink">© CLI +</p></li>
                 <li><a href="{{ localized_route('legal') }}">Información legal</a></li>
                 <li><a href="{{ localized_route('cookies') }}">Cookies</a></li>
             </ul>
