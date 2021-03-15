@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', __('¿Tomamos un café? Contacta con nosotras, queremos ser uno + en tu proyecto'))
+@section('title', __('CLI+ | Contacta con nosotras, queremos ser uno + en tu proyecto'))
 @section('description', __('Queremos formar parte de proyecto y ayudarte a conseguir tus objetivos desde el marketing. ¿Quedamos y nos conocemos?'))
 
 
