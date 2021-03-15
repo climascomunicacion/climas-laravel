@@ -214,6 +214,7 @@ a.button.button-white svg { color: #fff; }
 .climas-es .container {  padding: 8em 0; text-align: center; font-size: 2.2em; color: #273157; }
 .climas-es .container .mas {margin: 0 5px;}
 .climas-es .container .climas-ico {margin-right: -50px;}
+@media (max-width: 820px) { .climas-es .container { font-size: 1.2em;} .climas-es .container .climas-ico { height: 40px; margin-right: -23px;}}
 
 .tips { padding: 6em 0;}
 .tips .container {display: -webkit-box;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;flex-direction: row;-webkit-box-pack: justify;justify-content: space-between; -webkit-box-align: start;align-items: flex-start;flex-wrap: nowrap;width: 100%;}
@@ -236,7 +237,7 @@ a.button.button-white svg { color: #fff; }
 .teams .components2 .item {display: -webkit-box;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;flex-direction: row;-webkit-box-pack: justify;justify-content: space-between; -webkit-box-align: start;align-items: flex-start;flex-wrap: nowrap;width: 100%;}
 .teams .components2 .item img {width: 50%;}
 .teams .components2 .item .txt {padding: 30px;}
-@media (max-width: 820px) {.teams .components2{ display: block; }.teams .components2 .item {width: 100%; margin-bottom:30px; }}
+@media (max-width: 820px) {.teams .components2 .item{ display: block; } .teams .components2 .item img, .teams .components2 .item .txt {width: 100%; margin-bottom:30px; }}
 .teams .components2 .item h4 { position: relative; padding-bottom: 10px; font-weight: 300; color: #273157}
 .teams .components2 .item h4:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 3px; background: #ce6a6b;}
 .teams .components2 .item.lara {flex-flow: row-reverse}

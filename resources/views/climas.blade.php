@@ -12,7 +12,11 @@
         <h3 class="text-pink">cli+</h3>
         <h2 class="text-white"><span class="uppercase">Cli</span> @lang('somos nosotras y el') <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="25pt" height="25pt" viewBox="0 0 177.000000 173.000000" preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,173.000000) scale(0.100000,-0.100000)" fill="#ce6a6b" stroke="none"><path d="M727 1705 c-20 -14 -47 -45 -59 -68 -22 -40 -23 -56 -26 -274 l-3 -233 -242 0 c-300 -1 -331 -9 -378 -102 -16 -31 -19 -59 -19 -163 0 -104 3 -132 19 -163 47 -93 78 -101 379 -102 l242 0 0 -300 c0 -216 3 -300 11 -300 6 0 42 11 79 24 100 36 209 56 310 57 l90 1 0 259 0 259 243 0 c300 1 331 9 378 102 16 31 19 59 19 163 0 104 -3 132 -19 163 -47 93 -78 101 -378 102 l-242 0 -3 233 c-3 218 -4 234 -26 274 -12 23 -39 54 -59 68 -35 23 -46 25 -158 25 -112 0 -123 -2 -158 -25z"/></g></svg>
             @lang('eres tú')</h2>
-            <img class="bg-mas" src="img/bg-mas.png">
+            <img class="bg-mas"
+                src="{{ asset('img/bg-mas.png') }}"
+                alt="@lang('')" 
+                title="@lang('')"
+            >
     </div>
 </section>   
 <!-- CONTENT -->
@@ -54,7 +58,7 @@
            </div>
            <div class="components2">
                <div class="item">
-                    <img src="img/lara-maisueche.gif">
+                    <img src="img/carla-anon.gif">
                     <div class="txt">
                         <h4>@lang('Carla Añón')</h4>
                         <p>@lang('De pequeña era un hacha en matemáticas. Superwoman que sobrepasa la capacidad humana estándar para el Multitasking. Posee más de 1TB de memoria interna. Birra y queso es su combinación ganadora.')</p>
@@ -68,14 +72,14 @@
                     </div>
                </div>
                <div class="item">
-                    <img src="img/lara-maisueche.gif">
+                    <img src="img/iulene-miguel.gif">
                     <div class="txt">
                         <h4>@lang('Iulene Miguel')</h4>
                         <p>@lang('La reina del pantone. La frase "quedarse en blanco" no se encuentra dentro de su vocabulario. Con su varita mágica pone color a nuestras ideas.  Constante y madrugadora crosffitter. No se pierde un pintxopote.') </p>
                     </div>
                </div>
            </div>
-
+<!--
            <div class="components">
             <div class="item">
                  <img src="">
@@ -92,6 +96,7 @@
                 <p>@lang('La reina del pantone. La frase "quedarse en blanco" no se encuentra dentro de su vocabulario. Con su varita mágica pone color a nuestras ideas.  Constante y madrugadora crosffitter. No se pierde un pintxopote.') </p>
             </div>
         </div>
+    -->
         </div>
     </article>
 </section>
