@@ -8,7 +8,7 @@
             </ul>
             <ul>
                 <li><a href="{{ localized_route('/') }}">Inicio</a></li>
-                <li><a href="{{ localized_route('climas') }}">CLI +</a></li>
+                <li><a href="{{ localized_route('agencia') }}">CLI +</a></li>
                 <li><a href="{{ localized_route('services') }}">Servicios</a></li>
                 <li><a href="{{ localized_route('contact') }}">Contacto</a></li>
             </ul>

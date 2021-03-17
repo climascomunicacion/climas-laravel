@@ -4,7 +4,7 @@
 
 return array(
     'contact' => 'contacto',
-    'climas'   => 'climas',
+    'agencia'   => 'agencia',
     'services' => 'servicios',
     'legal' => 'legal',
     'cookies' => 'cookies'

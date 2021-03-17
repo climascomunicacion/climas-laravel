@@ -19,7 +19,7 @@
             <nav>
                 <ul class="menu">
                     <li><a href="{{ localized_route('/') }}">@lang('inicio')</a></li>
-                    <li><a href="{{ localized_route('climas') }}">@lang('cli +')</a></li>
+                    <li><a href="{{ localized_route('agencia') }}">@lang('cli +')</a></li>
                     <li><a href="{{ localized_route('services') }}">@lang('servicios')</a></li>
                     <li><a href="{{ localized_route('contact') }}">@lang('contacto')</a></li>
                 </ul>
@@ -54,7 +54,7 @@
             <div class="aside-section aside-right">
               <ul class="aside-list">
                 <li><a href="{{ localized_route('/') }}">@lang('inicio')</a></li>
-                <li><a href="{{ localized_route('climas') }}">@lang('cli +')</a></li>
+                <li><a href="{{ localized_route('agencia') }}">@lang('cli +')</a></li>
                 <li><a href="{{ localized_route('services') }}">@lang('servicios')</a></li>
                 <li><a href="{{ localized_route('contact') }}">@lang('contacto')</a></li>
               </ul>

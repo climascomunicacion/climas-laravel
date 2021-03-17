@@ -21,7 +21,7 @@ https://github.com/chinleung/laravel-multilingual-routes
 Route::middleware([])->group(function () {
     Route::multilingual('legal')->view('legal');
     Route::multilingual('cookies')->view('cookies');
-    Route::multilingual('climas')->view('climas');
+    Route::multilingual('agencia')->view('agencia');
     Route::multilingual('contact', 'App\Http\Controllers\ContactController@showForm');
     Route::multilingual('contact', 'App\Http\Controllers\ContactController@storeForm')->method('post')->name('contact.save');
     Route::multilingual('services')->view('services');
