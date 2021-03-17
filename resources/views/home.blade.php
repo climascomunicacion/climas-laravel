@@ -103,7 +103,7 @@
             </div>
             <div class="img">
                 <img 
-                    src="{{ asset('img/cuentanos-img.png') }}"
+                    src="{{ asset('img/cuentanos.png') }}"
                     alt="@lang('Contacta con nosotras.')" 
                     title="@lang('Contacto')"
                 >

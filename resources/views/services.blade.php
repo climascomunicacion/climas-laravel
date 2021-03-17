@@ -60,7 +60,7 @@
                     <!--slider 1-->
                     <div class="swiper-slide">
                         <div class="contenido">
-                            <img src="img/mano.png">
+                            <img src="img/redes-sociales-climas.gif">
                             <div class="txt">
                                 <div class="swiper-pagination"></div>
                                 <h3>@lang('Deja tus redes en nuestras manos y despreocúpate')</h3>

@@ -28,7 +28,7 @@ class ContactController extends Controller
         'comentario' => $request->get('comentario'),
     ), function($message) use ($request){
         $message->from('contactoweb@climascomunicacion.com', 'Climas comuniación web');
-        $message->to('hola@climascomunicacion.com', 'Climas comuniación')->subject('Mensaje de contacto desde climascomunicacion.com'); //contactoweb@climascomunicacion.com
+        $message->to('iulene90@gmail.com', 'Climas comuniación')->subject('Mensaje de contacto desde climascomunicacion.com'); //contactoweb@climascomunicacion.com
     });
 
     return back()->with('success', 'Gracias por ponerse en contacto.')->withInput();
