@@ -17,11 +17,12 @@
         </div>
         <div class="container-menu">
             <nav>
+              
                 <ul class="menu">
-                    <li><a href="{{ localized_route('/') }}">@lang('inicio')</a></li>
-                    <li><a href="{{ localized_route('agencia') }}">@lang('cli +')</a></li>
-                    <li><a href="{{ localized_route('services') }}">@lang('servicios')</a></li>
-                    <li><a href="{{ localized_route('contact') }}">@lang('contacto')</a></li>
+                    <li><a class="@if (Str::contains(Route::currentRouteName(), '/')) active @endif" href="{{ localized_route('/') }}">@lang('inicio')</a></li>
+                    <li><a class="@if (Str::contains(Route::currentRouteName(), 'agencia')) active @endif" href="{{ localized_route('agencia') }}">@lang('cli +')</a></li>
+                    <li><a class="@if (Str::contains(Route::currentRouteName(), 'services')) active @endif" href="{{ localized_route('services') }}">@lang('servicios')</a></li>
+                    <li><a class="@if (Str::contains(Route::currentRouteName(), 'contact')) active @endif" href="{{ localized_route('contact') }}">@lang('contacto')</a></li>
                 </ul>
             </nav>
         </div>
@@ -53,10 +54,10 @@
             </div>
             <div class="aside-section aside-right">
               <ul class="aside-list">
-                <li><a href="{{ localized_route('/') }}">@lang('inicio')</a></li>
-                <li><a href="{{ localized_route('agencia') }}">@lang('cli +')</a></li>
-                <li><a href="{{ localized_route('services') }}">@lang('servicios')</a></li>
-                <li><a href="{{ localized_route('contact') }}">@lang('contacto')</a></li>
+                <li><a class="@if (Str::contains(Route::currentRouteName(), '/')) active @endif" href="{{ localized_route('/') }}">@lang('inicio')</a></li>
+                <li><a class="@if (Str::contains(Route::currentRouteName(), 'agencia')) active @endif" href="{{ localized_route('agencia') }}">@lang('cli +')</a></li>
+                <li><a class="@if (Str::contains(Route::currentRouteName(), 'services')) active @endif" href="{{ localized_route('services') }}">@lang('servicios')</a></li>
+                <li><a class="@if (Str::contains(Route::currentRouteName(), 'contact')) active @endif" href="{{ localized_route('contact') }}">@lang('contacto')</a></li>
               </ul>
             </div>
           </aside>

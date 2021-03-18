@@ -42,8 +42,9 @@
                     whatsapp  </a>
             </div>
             <div class="form">
+                @if(!Session::has('success'))
                 <h4 class="uppercase text-white">@lang('Si lo prefieres rellena este formulario:')</h4>
-                
+                @endif
                 <form method="post" id="formulario-contacto" action="{{ localized_route('contact.save') }}">
                     @csrf
                     @if(!Session::has('success'))
