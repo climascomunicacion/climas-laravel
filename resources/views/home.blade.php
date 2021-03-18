@@ -6,7 +6,7 @@
 <section class="">
     <div class="intro-content full-screen">
         <div class="container">
-            <h2><img src="{{ asset('img/comillas.png') }}"><br>@lang('Un equipo de marketing dentro de tu empresa')</h2>
+            <h2><img src="{{ asset('img/comillas.png') }}"><br>@lang('.Un equipo de marketing dentro de tu empresa')</h2>
             
         </div>
         <img  src="img/bg-comunicacion.jpg" alt="">
