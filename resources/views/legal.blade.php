@@ -43,11 +43,9 @@
             <p>@lang('El Usuario es el único responsable de la veracidad y corrección de los datos incluidos, exonerándose CLI+ COMUNICACIÓN de cualquier responsabilidad al respecto. Los usuarios garantizan y responden, en cualquier caso, de la exactitud, vigencia y autenticidad de los datos personales facilitados, y se comprometen a mantenerlos debidamente actualizados.') </p>
             <p>@lang('El usuario acepta proporcionar información completa y correcta en el formulario de registro o suscripción. CLI+ COMUNICACIÓN no responde de la veracidad de las informaciones que no sean de elaboración propia y de las que se indique otra fuente, por lo que tampoco asume responsabilidad alguna en cuanto a hipotéticos perjuicios que pudieran originarse por el uso de dicha información.  CLI+ COMUNICACIÓN se reserva el derecho a actualizar, modificar o eliminar la información contenida en sus páginas web pudiendo incluso limitar o no permitir el acceso a dicha información. Se exonera a CLI+ COMUNICACIÓN de responsabilidad ante cualquier daño o perjuicio que pudiera sufrir el Usuario como consecuencia de errores, defectos u omisiones, en la información facilitada por CLI+ COMUNICACIÓN siempre que proceda de fuentes ajenas a CLI+ COMUNICACIÓN.')</p>
 
-            <h3>@lang('Cookies')</h3>
-            <p>@lang('El sitio www.climascomunicacion.com no utiliza cookies, considerando tales ficheros físicos de información alojados en el propio terminal del usuario y sirven para facilitar la navegación del usuario por el portal. De todas formas, el usuario tiene la posibilidad de configurar el navegador de tal modo que impida la instalación de estos archivos.')</p>
-
+            
             <h3>@lang('Finalidades')</h3>
-            <p>@lang('Las finalidades de [NOMBRE_EMPRESA] son el mantenimiento y gestión de la relación con el Usuario, así como las labores de información.')</p>
+            <p>@lang('Las finalidades de CLI+ COMUNICACIÓN son el mantenimiento y gestión de la relación con el Usuario, así como las labores de información.')</p>
 
             <h3>@lang('Menores de edad')</h3>
             <p>@lang('En el supuesto que algunos de nuestros servicios vayan dirigidos específicamente a menores de edad, CLI+ COMUNICACIÓN solicitará la conformidad de los padres o tutores para la recogida de los datos personales o, en su caso, para el tratamiento automatizado de los datos.')</p>

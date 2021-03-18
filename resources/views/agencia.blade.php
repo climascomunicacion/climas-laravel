@@ -36,8 +36,8 @@
                 <span class="num">01</span>
                 <h3 class="text-blue">@lang('Queremos potenciar tu negocio, juntos')</h3>
                 <div class="txt">
-                    <p class="text-white">@lang('Lo nuestro es el Marketing Digital, la Comunicación y la Publicidad. Con ganas, pasión y profesionalidad conseguiremos grandes cosas juntos.') </p>
-                    <p class="text-white">@lang('Bajo una planificación estratégica y contando con las herramientas necesarias llevaremos a cabo las acciones idóneas para potenciar tu negocio y alcanzar los objetivos marcados.')</p>
+                    <p class="text-white">@lang('Lo nuestro es el Marketing Digital, la Comunicación y la Publicidad. Bajo una planificación estratégica y contando con las herramientas necesarias, llevaremos a cabo las acciones idóneas para potenciar tu negocio y alcanzar los objetivos marcados.') </p>
+                    <p class="text-white"><strong>@lang('Con ganas, pasión y profesionalidad conseguiremos grandes cosas juntos.')</strong></p>
                 </div>
             </div>
             <div class="info">
@@ -45,6 +45,7 @@
                 <h3 class="text-blue">@lang('Ser uno + en tu empresa es lo que nos motiva')</h3>
                 <div class="txt">
                     <p class="text-white">@lang('Nos gustaría poder ser uno + dentro de tu empresa. Ayudarte y acompañarte en tu camino para conseguir lo que te propongas. Queremos que te despreocupes de lo relacionado con el marketing y puedas dedicarte de lleno a lo que te importa, tu negocio.')</p>
+                    <p class="text-white"><strong>@lang('Estamos convencidas de que podemos formar un gran equipo.')</strong></p>
                 </div>
             </div>
         </div>
@@ -59,7 +60,7 @@
            <div class="components2">
                <div class="item">
                     <img
-                        src="{{ asset('img/carla-anon.gif') }}"
+                        src="{{ asset('img/carla-anon_c.gif') }}"
                         alt="@lang('Carla Añón forma parte del equipo de CLI+ Comunicación ')" 
                         title="@lang('Carla Añón')"
                     >
@@ -70,7 +71,7 @@
                </div>
                <div class="item lara">
                     <img
-                        src="{{ asset('img/lara-maisueche.gif') }}"
+                        src="{{ asset('img/lara-maisueche_l.gif') }}"
                         alt="@lang('Lara Maisueche forma parte del equipo de CLI+ Comunicación ')" 
                         title="@lang('Lara Maisueche')"
                     >
@@ -81,7 +82,7 @@
                </div>
                <div class="item">
                     <img
-                        src="{{ asset('img/iulene-miguel.gif') }}"
+                        src="{{ asset('img/iulene-miguel_i.gif') }}"
                         alt="@lang('Iulene Miguel forma parte del equipo de CLI+ Comunicación')" 
                         title="@lang('Iulene Miguel')"
                     >

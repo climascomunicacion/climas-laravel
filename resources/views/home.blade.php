@@ -72,7 +72,7 @@
                     >
 
                     <h3 class="text-pink">@lang('Gestión de Redes Sociales')</h3>
-                    <p>@lang('Creación y gestión de perfiles. Escucha y atención al cliente. Análisis y estadísticas.')</p>
+                    <p>@lang('Creación y gestión de perfiles. Interacción y atención al cliente. Escucha, análisis y estadísticas.')</p>
                 </div>
                 <div class="item">
                     <img class="icon"

@@ -207,6 +207,7 @@ a.button.button-white svg { color: #fff; }
 .intro-content-pages h3{font-size: 1.2em; font-weight: bold; text-transform: uppercase;  position: relative;padding: 0 0 10px 0; margin: 0 0 15px 0; }
 .intro-content-pages h3:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 3px; background: #ce6a6b;}
 .intro-content-pages h2 {max-width: 600px;}
+.intro-content-pages h2.servicesh2 {max-width: 625px;}
 .intro-content-pages .container {position: relative;}
 .intro-content-pages .container .bg-mas {position: absolute;right: 25px; width: 200px;}
 @media (max-width: 820px) {.intro-content-pages { width: 100%; padding: 12em 0 12em}.intro-content-pages .container .bg-mas {width: 100px; right:40px; margin-top: 60px; }
@@ -246,11 +247,11 @@ a.button.button-white svg { color: #fff; }
 /*SERVICES*/
 .services-container .que-necesitas { padding: 8em 0 2em;}
 .services-container .que-necesitas h2 { font-size: 2.2em; font-weight: 300; margin-bottom: 2em; }
-.services-container .que-necesitas .content { position: relative; }
-.services-container .que-necesitas .content p { width: 35%; position: relative; padding-top:25px; margin-bottom:35px;}
+.services-container .que-necesitas .content { position: relative;  margin-bottom: 35px;}
+.services-container .que-necesitas .content p { width: 35%; position: relative; padding-top:20px; margin-bottom:0}
 @media (max-width: 820px) {.services-container .que-necesitas .content p{ width: 100%; }}
 .services-container .que-necesitas .content:before {content: ""; position: absolute; top: 0; left: 0; width: 80px; height: 3px; background: #ce6a6b;}
-.services-container .services-block {padding: 4em 0;}
+.services-container .services-block {padding: 8em 0;}
 .services-container .services-block h3 { font-weight: bold; margin-bottom:15px; }
 .services-container .services-block ul li {padding: 10px 0 10px 0; font-size: 1.2em;}
 .services-container .services-block ul li svg {width: 15px; height: 12px; margin-right: 10px;}
@@ -288,7 +289,7 @@ a.button.button-white svg { color: #fff; }
     .swiper-slide .contenido .img {margin-top: 68px;}
     @media (max-width: 1200px) {.swiper-slide .contenido{ padding: 0 4em; }}
     @media (max-width: 820px){.swiper-slide .contenido{ display: block; } .swiper-slide .contenido .txt { width: 100%; } .slider .container { padding: 0; }}
-    .swiper-slide .contenido .txt h3 { font-size: 2em; margin: 0 0 1em 0 }
+    .swiper-slide .contenido .txt h3 { font-size: 2em; margin: 0 0 1em 0; line-height: 1.3em; }
     .swiper-pagination {
     position: inherit; text-align: left; margin-bottom: 30px;}
     .swiper-pagination-bullet {
