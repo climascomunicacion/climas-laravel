@@ -42,6 +42,9 @@
                     whatsapp  </a>
             </div>
             <div class="form">
+                @if (count($errors) > 0)
+    
+@endif
                 @if(!Session::has('success'))
                 <h4 class="uppercase text-white">@lang('Si lo prefieres rellena este formulario:')</h4>
                 @endif
@@ -52,21 +55,21 @@
                         <label for="nombre">@lang('Nombre')</label>
                         <input id="nombre" name="nombre" type="text" value="{{ old('nombre') }}" placeholder="nombre" />
                         @if ($errors->has('nombre'))
-                        <p class="error">@lang('El campo nombre es obligatorio.')</p>
+                        <p class="error">{{ $errors->first('nombre') }}</p>
                         @endif
                     </div>
                     <div >
                         <label for="email">@lang('email')</label>
                         <input id="email" name="email" type="text" value="{{ old('email') }}" placeholder="email" />
                         @if ($errors->has('email'))
-                        <p class="error">@lang('El campo email es obligatorio.')</p>
+                        <p class="error">{{ $errors->first('email') }}</p>
                         @endif
                     </div>
                     <div class="textarea">
                         <label for="comentario">@lang('comentario')</label> 
                         <textarea name="comentario" id="comentario" rows="10">{{ old('comentario') }}</textarea>
                         @if ($errors->has('comentario'))
-                        <p class="error">@lang('El campo comentario es obligatorio.')</p>
+                        <p class="error">{{ $errors->first('comentario') }}</p>
                         @endif
                     </div>
                     <div class="check">
