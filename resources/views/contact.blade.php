@@ -85,7 +85,7 @@
             
             @if(Session::has('success'))
                 <div class="success">
-                    <p>@lang('Mensaje recibido. Gracias por contactar con nosotras, no tardaremos en responderte ')</p>
+                    <p>@lang('Mensaje recibido. Gracias por contactar con nosotras, no tardaremos en responderte &#59;&#41;')</p>
                 </div>
             @endif
             </div>
