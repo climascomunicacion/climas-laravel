@@ -332,6 +332,7 @@ a.button.button-white svg { color: #fff; }
 .form-container .form input::placeholder {color: #273157; font-size: 0.9em; font-style: italic; }
 .form-container .form input:focus, textarea:focus {outline:none !important; outline-width: 0 !important; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
 .form-container .form .button {color: #fff; padding: 15px 45px; margin-top: 2em;}
+.form-container .form .button:hover {color: #273157;}
 .form-container .form .error {    display: block; width: 100%; color: #f1e9c2; font-style: italic; font-size: .75em; margin-bottom: 1em; margin-top: -1em}
 .form-container .form .textarea label { display: inline-block; margin-bottom: 1em; color: #273157; }
 .form-container .form  div.check label {display: inline-block; margin-bottom: 1em; color: #273157; position: relative; padding-left: 2em;}

@@ -118,6 +118,8 @@
   -o-transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
 }
+.aside-list li a.active {color: #ce6a6b !important;}
+.aside-list li a.active::before {background-color: #ce6a6b;}
 
 .aside-anchor:hover:before {
   -webkit-transform: translateX(100%);
