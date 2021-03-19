@@ -26,17 +26,7 @@
                 </ul>
             </nav>
         </div>
-        <!--
-              <ul class="menu menu-lang">
-                <li>
-                    
-                    <ul class="submenu">
-                        <li class="active"><a href="{{ localized_route(substr(Route::currentRouteName(), 3), [], 'es') }}" class>ES</a></li>
-                        <li><a href="{{ localized_route(substr(Route::currentRouteName(), 3), [], 'eu') }}" class>EU</a></li>
-                    </ul>
-                </li>
-            </ul>
-        -->
+        
         <div class="navigation-hamburguesa ">
             <input type="checkbox" id="myInput">
             <label for="myInput">
