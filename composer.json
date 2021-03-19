@@ -9,6 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "biscolab/laravel-recaptcha": "^5.0",
         "bringyourownideas/laravel-sitemap": "^2.1",
         "chinleung/laravel-locales": "^1.2",
         "chinleung/laravel-multilingual-routes": "^2.7",

@@ -90,6 +90,7 @@ return array(
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
     'BringYourOwnIdeas\\LaravelSitemap\\' => array($vendorDir . '/bringyourownideas/laravel-sitemap/src'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
+    'Biscolab\\ReCaptcha\\' => array($vendorDir . '/biscolab/laravel-recaptcha/src'),
     'Asm89\\Stack\\' => array($vendorDir . '/asm89/stack-cors/src'),
     'App\\' => array($baseDir . '/app'),
 );
