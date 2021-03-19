@@ -38,4 +38,38 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    /**
+     * Render an exception into an HTTP response.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Exception  $exception
+     * @return \Illuminate\Http\Response
+     */
+    public function render($request, Exception $exception)
+
+    {
+        //dd('1');
+        if($this->isHttpException($exception))
+        {
+          //  dd('2');
+            switch ($exception->getStatusCode()) {
+                // not found
+                case '404':
+                     return $this->renderHttpException($exception); 
+                break;
+                // internal server error
+                case '500':
+                return $this->renderHttpException($exception);   
+                break;
+                default:
+                    return $this->renderHttpException($exception);
+                break;
+            }
+        } else
+        {
+            return parent::render($request, $exception);
+        }
+
+    }
 }

@@ -27,8 +27,4 @@ Route::middleware([])->group(function () {
     Route::multilingual('services')->view('services');
     Route::multilingual('/')->view('home', ["page" => "home"]);
 });
-/*
-Route::post('contact', function(Request $request){
-    
-});
-*/
+
