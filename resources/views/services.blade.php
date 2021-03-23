@@ -60,7 +60,11 @@
                     <!--slider 1-->
                     <div class="swiper-slide">
                         <div class="contenido">
-                            <img src="img/redes-sociales-climas.gif">
+                            <img 
+                                src="{{ asset('img/redes-sociales-climas.gif') }}"
+                                alt="@lang('Gestionamos tus perfiles de Redes Sociales ')" 
+                                title="@lang('Redes sociales')"
+                            >
                             <div class="txt">
                                 <div class="swiper-pagination"></div>
                                 <h3>@lang('Deja tus redes en nuestras manos y despreocúpate')</h3>
@@ -71,7 +75,11 @@
                     <!--slider 2-->
                     <div class="swiper-slide">
                         <div class="contenido">
-                            <img src="img/hora-digitalizarse.gif">
+                            <img 
+                                src="{{ asset('img/hora-digitalizarse.gif') }}"
+                                alt="@lang('Es hora de digitalizar tu negocio')" 
+                                title="@lang('Ha llegado la hora')"
+                            >
                             <div class="txt">
                                 <div class="swiper-pagination"></div>
                                 <h3>@lang('Ha llegado la hora de digitalizarse y/o reinventarse')</h3>
@@ -82,7 +90,11 @@
                     <!--slider 3-->
                     <div class="swiper-slide">
                         <div class="contenido">
-                            <img src="img/ayuda-empezar.gif">
+                            <img 
+                                src="{{ asset('img/ayuda-empezar.gif') }}"
+                                alt="@lang('Te ayudamos desde el principio')" 
+                                title="@lang('Empezamos')"
+                            >
                             <div class="txt">
                                 <div class="swiper-pagination"></div>
                                 <h3>@lang('¿No sabes por dónde empezar?')</h3>

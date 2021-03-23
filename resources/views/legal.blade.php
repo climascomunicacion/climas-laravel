@@ -47,14 +47,12 @@
             <h3>@lang('Finalidades')</h3>
             <p>@lang('Las finalidades de CLI+ COMUNICACIÓN son el mantenimiento y gestión de la relación con el Usuario, así como las labores de información.')</p>
 
-            <h3>@lang('Menores de edad')</h3>
-            <p>@lang('En el supuesto que algunos de nuestros servicios vayan dirigidos específicamente a menores de edad, CLI+ COMUNICACIÓN solicitará la conformidad de los padres o tutores para la recogida de los datos personales o, en su caso, para el tratamiento automatizado de los datos.')</p>
-
+            
             <h3>@lang('Cesión de datos a terceros')</h3>
             <p>@lang('CLI+ COMUNICACIÓN no realizará cesión de datos de los usuarios a terceros.')</p>
 
             <h3>@lang('Ejercicio de derechos de acceso, rectificación, cancelación y oposición')</h3>
-            <p>@lang('Podrá dirigir sus comunicaciones y ejercitar los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición en la dirección de Internet a www.climascomunicacion.com o bien por correo ordinario dirigido a CLI+ COMUNICACIÓN, Ref. RGPD, en PASAJE IRURESORO 2-4, SAN SEBASTIÁN, 20012, GIPUZKOA. Para ejercer dichos derechos es necesario que usted acredite su personalidad frente a CLI+ COMUNICACIÓN mediante el envío de fotocopia de Documento Nacional de Identidad o cualquier otro medio válido en Derecho. No obstante, la modificación o rectificación de sus datos de registro se podrá realizar en el propio Site identificándose, previamente, con su usuario y contraseña.')</p>
+            <p>@lang('Podrá dirigir sus comunicaciones y ejercitar los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición en la dirección de Internet a www.climascomunicacion.com o bien por correo ordinario dirigido a CLI+ COMUNICACIÓN, Ref. RGPD, en PASAJE IRURESORO 2-4, SAN SEBASTIÁN, 20012, GIPUZKOA.')</p>
 
             <h3>@lang('Medidas de seguridad')</h3>
             <p>@lang('CLI+ COMUNICACIÓN ha adoptado los niveles de seguridad de protección de los Datos Personales legalmente requeridos, y procuran instalar aquellos otros medios y medidas técnicas adicionales a su alcance para evitar la pérdida, mal uso, alteración, acceso no autorizado y robo de los Datos Personales facilitados a CLI+ COMUNICACIÓN no será responsable de posibles daños o perjuicios que se pudieran derivar de interferencias, omisiones, interrupciones, virus informáticos, averías telefónicas o desconexiones en el funcionamiento operativo de este sistema electrónico, motivadas por causas ajenas a CLI+ COMUNICACIÓN; de retrasos o bloqueos en el uso del presente sistema electrónico causados por deficiencias o sobrecargas de líneas telefónicas o sobrecargas en el Centro de Procesos de Datos, en el sistema de Internet o en otros sistemas electrónicos, así como de daños que puedan ser causados por terceras personas mediante intromisiones ilegítimas fuera del control de CLI+ COMUNICACIÓN. Ello, no obstante, el Usuario debe ser consciente de que las medidas de seguridad en Internet no son inexpugnables.')</p>
