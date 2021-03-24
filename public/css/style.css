@@ -411,6 +411,12 @@ footer .nav-footer .container a:hover { color:#ce6a6b; transition: .6s; }
 
 
 
+/*cookies*/
+a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {color:#273157 !important}
+#CybotCookiebotDialog { background: #f1e9c2 !important;}
+#CybotCookiebotDialogPoweredbyImage{ display: none !important;}
+
+
 
 
 
