@@ -9,8 +9,8 @@
 <section class="intro-content-pages bg-blue">
     <div class="container ">
         <h3 class="text-pink">@lang('servicios')</h3>
-        <h2 class="text-white servicesh2">@lang('Mucho') <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="25pt" height="25pt" viewBox="0 0 177.000000 173.000000" preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,173.000000) scale(0.100000,-0.100000)" fill="#ce6a6b" stroke="none"><path d="M727 1705 c-20 -14 -47 -45 -59 -68 -22 -40 -23 -56 -26 -274 l-3 -233 -242 0 c-300 -1 -331 -9 -378 -102 -16 -31 -19 -59 -19 -163 0 -104 3 -132 19 -163 47 -93 78 -101 379 -102 l242 0 0 -300 c0 -216 3 -300 11 -300 6 0 42 11 79 24 100 36 209 56 310 57 l90 1 0 259 0 259 243 0 c300 1 331 9 378 102 16 31 19 59 19 163 0 104 -3 132 -19 163 -47 93 -78 101 -378 102 l-242 0 -3 233 c-3 218 -4 234 -26 274 -12 23 -39 54 -59 68 -35 23 -46 25 -158 25 -112 0 -123 -2 -158 -25z"/></g></svg>
-            @lang('que una agencia de comunicación')</h2>
+        <h1 class="text-white servicesh1">@lang('Mucho') <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="25pt" height="25pt" viewBox="0 0 177.000000 173.000000" preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,173.000000) scale(0.100000,-0.100000)" fill="#ce6a6b" stroke="none"><path d="M727 1705 c-20 -14 -47 -45 -59 -68 -22 -40 -23 -56 -26 -274 l-3 -233 -242 0 c-300 -1 -331 -9 -378 -102 -16 -31 -19 -59 -19 -163 0 -104 3 -132 19 -163 47 -93 78 -101 379 -102 l242 0 0 -300 c0 -216 3 -300 11 -300 6 0 42 11 79 24 100 36 209 56 310 57 l90 1 0 259 0 259 243 0 c300 1 331 9 378 102 16 31 19 59 19 163 0 104 -3 132 -19 163 -47 93 -78 101 -378 102 l-242 0 -3 233 c-3 218 -4 234 -26 274 -12 23 -39 54 -59 68 -35 23 -46 25 -158 25 -112 0 -123 -2 -158 -25z"/></g></svg>
+            @lang('que una agencia de comunicación')</h1>
             
             <img class="bg-mas"
                 src="{{ asset('img/bg-mas.png') }}"
@@ -67,7 +67,7 @@
                             >
                             <div class="txt">
                                 <div class="swiper-pagination"></div>
-                                <h3>@lang('Deja tus redes en nuestras manos y despreocúpate')</h3>
+                                <h2>@lang('Deja tus redes en nuestras manos y despreocúpate')</h2>
                                 <p>@lang('Gestionamos tus perfiles en <strong>Redes Sociales</strong>, nos encargamos del día a día, de la relación con tu público y de crear bonitas historias para conseguir un <strong>mayor alcance</strong>'). </p>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                             >
                             <div class="txt">
                                 <div class="swiper-pagination"></div>
-                                <h3>@lang('Ha llegado la hora de digitalizarse y/o reinventarse')</h3>
+                                <h2>@lang('Ha llegado la hora de digitalizarse y/o reinventarse')</h2>
                                 <p>@lang('La <strong>digitalización de tu negocio</strong> o actividad será <strong>clave para garantizar tu permanencia en el mercado</strong> de manera competitiva. La página web será tu escaparate al mundo online y un reflejo de tu filosofía de marca para llegar a tu público objetivo.')</p>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                             >
                             <div class="txt">
                                 <div class="swiper-pagination"></div>
-                                <h3>@lang('¿No sabes por dónde empezar?')</h3>
+                                <h2>@lang('¿No sabes por dónde empezar?')</h2>
                                 <p><strong>@lang('Nosotras te ayudamos</strong>: creación o actualización de logotipo, catálogos, flyers, cartas, creación de perfiles sociales, desarrollo de tu página web... y para todo lo que se te ocurra puedes contar con CLI+.')</p>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
     <div class="container">
         <div class=" bg-grey">
             <div class="txt">
-                <h3>@lang('¿Sabes lo que necesitas? Pídenos presupuesto')</h3>
+                <h2>@lang('¿Sabes lo que necesitas? Pídenos presupuesto')</h2>
                 <div class="tel-box">
                     <a href="tel:747425053" class="tel">747 425 053</a><span>|</span> <a href="tel:747425054" class="tel">747 425 054</a>
                 </div>

@@ -10,8 +10,8 @@
 <section class="intro-content-pages bg-blue">
     <div class="container ">
         <h3 class="text-pink">cli+</h3>
-        <h2 class="text-white"><span class="uppercase">Cli</span> @lang('somos nosotras y el') <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="25pt" height="25pt" viewBox="0 0 177.000000 173.000000" preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,173.000000) scale(0.100000,-0.100000)" fill="#ce6a6b" stroke="none"><path d="M727 1705 c-20 -14 -47 -45 -59 -68 -22 -40 -23 -56 -26 -274 l-3 -233 -242 0 c-300 -1 -331 -9 -378 -102 -16 -31 -19 -59 -19 -163 0 -104 3 -132 19 -163 47 -93 78 -101 379 -102 l242 0 0 -300 c0 -216 3 -300 11 -300 6 0 42 11 79 24 100 36 209 56 310 57 l90 1 0 259 0 259 243 0 c300 1 331 9 378 102 16 31 19 59 19 163 0 104 -3 132 -19 163 -47 93 -78 101 -378 102 l-242 0 -3 233 c-3 218 -4 234 -26 274 -12 23 -39 54 -59 68 -35 23 -46 25 -158 25 -112 0 -123 -2 -158 -25z"/></g></svg>
-            @lang('eres tú')</h2>
+        <h1 class="text-white"><span class="uppercase">Cli</span> @lang('somos nosotras y el') <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="25pt" height="25pt" viewBox="0 0 177.000000 173.000000" preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,173.000000) scale(0.100000,-0.100000)" fill="#ce6a6b" stroke="none"><path d="M727 1705 c-20 -14 -47 -45 -59 -68 -22 -40 -23 -56 -26 -274 l-3 -233 -242 0 c-300 -1 -331 -9 -378 -102 -16 -31 -19 -59 -19 -163 0 -104 3 -132 19 -163 47 -93 78 -101 379 -102 l242 0 0 -300 c0 -216 3 -300 11 -300 6 0 42 11 79 24 100 36 209 56 310 57 l90 1 0 259 0 259 243 0 c300 1 331 9 378 102 16 31 19 59 19 163 0 104 -3 132 -19 163 -47 93 -78 101 -378 102 l-242 0 -3 233 c-3 218 -4 234 -26 274 -12 23 -39 54 -59 68 -35 23 -46 25 -158 25 -112 0 -123 -2 -158 -25z"/></g></svg>
+            @lang('eres tú')</h1>
             <img class="bg-mas"
                 src="{{ asset('img/bg-mas.png') }}"
                 alt="@lang('más')" 
@@ -34,7 +34,7 @@
         <div class="container">
             <div class="info">
                 <span class="num">01</span>
-                <h3 class="text-blue">@lang('Queremos potenciar tu negocio, juntos')</h3>
+                <h2 class="text-blue">@lang('Queremos potenciar tu negocio, juntos')</h2>
                 <div class="txt">
                     <p class="text-white">@lang('Lo nuestro es el Marketing Digital, la Comunicación y la Publicidad. Bajo una planificación estratégica y contando con las herramientas necesarias, llevaremos a cabo las acciones idóneas para potenciar tu negocio y alcanzar los objetivos marcados.') </p>
                     <p class="text-white"><strong>@lang('Con ganas, pasión y profesionalidad conseguiremos grandes cosas juntos.')</strong></p>
@@ -42,7 +42,7 @@
             </div>
             <div class="info">
                 <span class="num">02</span>
-                <h3 class="text-blue">@lang('Ser uno + en tu empresa es lo que nos motiva')</h3>
+                <h2 class="text-blue">@lang('Ser uno + en tu empresa es lo que nos motiva')</h2>
                 <div class="txt">
                     <p class="text-white">@lang('Nos gustaría poder ser uno + dentro de tu empresa. Ayudarte y acompañarte en tu camino para conseguir lo que te propongas. Queremos que te despreocupes de lo relacionado con el marketing y puedas dedicarte de lleno a lo que te importa, tu negocio.')</p>
                     <p class="text-white"><strong>@lang('Estamos convencidas de que podemos formar un gran equipo.')</strong></p>
@@ -92,24 +92,6 @@
                     </div>
                </div>
            </div>
-<!--
-           <div class="components">
-            <div class="item">
-                 <img src="">
-                <h4>@lang('Carla Añón')</h4>
-                <p>@lang('De pequeña era un hacha en matemáticas. Superwoman que sobrepasa la capacidad humana estándar para el Multitasking. Posee más de 1TB de memoria interna. Birra y queso es su combinación ganadora.')</p>
-            </div>
-            <div class="item">
-                <h4>@lang('Lara Maisueche')</h4>
-                <p>@lang('Nuestra propia agenda humana, ¡no se le escapa una! Amante de las listas y los hashtags. Alcanza la velocidad del rayo escribiendo, aunque lo haga con un solo dedo. Alma organizadora y promotora del movimiento #marianitotime.')</p>
-            </div>
-            <div class="item">
-                 <img src="">
-                <h4>@lang('Iulene Miguel')</h4>
-                <p>@lang('La reina del pantone. La frase "quedarse en blanco" no se encuentra dentro de su vocabulario. Con su varita mágica pone color a nuestras ideas.  Constante y madrugadora crosffitter. No se pierde un pintxopote.') </p>
-            </div>
-        </div>
-    -->
         </div>
     </article>
 </section>
@@ -117,7 +99,7 @@
     <div class="container">
         <div class=" bg-grey">
             <div class="txt">
-                <h3>@lang('Queremos conocerte, ponte en contacto con nosotras')</h3>
+                <h2>@lang('Queremos conocerte, ponte en contacto con nosotras')</h2>
                 <div class="tel-box">
                     <a href="tel:747425053" class="tel">747 425 053</a><span>|</span> <a href="tel:747425054" class="tel">747 425 054</a>
                 </div>

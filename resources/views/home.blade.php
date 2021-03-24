@@ -6,7 +6,7 @@
 <section class="">
     <div class="intro-content full-screen">
         <div class="container">
-            <h2><img src="{{ asset('img/comillas.png') }}"><br>@lang('Un equipo de marketing dentro de tu empresa')</h2>
+            <h1><img src="{{ asset('img/comillas.png') }}"><br>@lang('Un equipo de marketing dentro de tu empresa')</h1>
             
         </div>
         <img  src="img/bg-comunicacion.jpg" alt="">
@@ -116,7 +116,7 @@
     <div class="container">
         <div class=" bg-grey">
             <div class="txt">
-                <h3>@lang('¿Tomamos un café?')</h3>
+                <h2>@lang('¿Tomamos un café?')</h2>
                 <div class="tel-box">
                     <a href="tel:747425053" class="tel">747 425 053</a><span>|</span> <a href="tel:747425054" class="tel">747 425 054</a>
                 </div>
