@@ -369,7 +369,7 @@ a.button.button-white svg { color: #fff; }
 .contact-footer .container a.link:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 2px; background: #ce6a6b; -webkit-transition: all .5s ease; transition: all .5s ease;}
 .contact-footer .container a.link:hover:after {width: 100%;}
 .contact-footer .container .tel-box { margin: 100px 0 20px 0;}
-.contact-footer .container .tel-box span { font-size: 2.1em; margin: 0 15px;}
+.contact-footer .container .tel-box span { font-size: 2.1em; margin: 0 15px; color:#273157;}
 .contact-footer .container .tel { font-size: 1.8em; display: inline-block; color:#273157; }
 .contact-footer .container .tel:hover {color:#ce6a6b; transition: .6s;}
 .contact-footer .container .rrss {position: absolute; right: 5em; bottom:4em;}
