@@ -55,7 +55,15 @@
     
       gtag('config', 'G-XJS20MP8LY');
     </script>
-    
+@if(Str::contains(Route::currentRouteName(), 'contact')))
+<!-- reCAPTCHA -->
+{!! htmlScriptTagJsApi([
+    'action' => 'homepage',
+    'callback_then' => 'callbackThen',
+    'callback_catch' => 'callbackCatch'
+]) !!}
+<!-- / reCAPTCHA -->
+ @endif    
 </head>
     @if($page ?? '' == 'home')
         <body class="home">
