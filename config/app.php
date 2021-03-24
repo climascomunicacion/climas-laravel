@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Climas comuniación'),
+    'name' => env('APP_NAME', 'Climas comunicación'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://desarrollo.climascomunicacion.com'),
+    'url' => env('APP_URL', 'https://climascomunicacion.com'),
 
     'asset_url' => env('ASSET_URL', null),
 
