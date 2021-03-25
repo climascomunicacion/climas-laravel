@@ -164,7 +164,7 @@ a.button.button-white svg { color: #fff; }
 }
 .intro-content .recurso { position: absolute; width: 30%; right: 0; top: 40%;}
 .intro-content .recurso img { width:100%; transition: 1s; margin-left: 50px; transition-property:  }
-.intro-content h1 { left: 0; font-size: 4em; line-height: 1.3em; max-width: 500px; margin-top: 10%; color: #273157;}
+.intro-content h1 { left: 0; font-size: 4.5em; line-height: 1.3em; max-width: 500px; margin-top: 10%; color: #273157;}
 @media (max-width: 820px) {.intro-content h1{ font-size: 3em; line-height: 1em;}.intro-content h1 img{ width: 50px; }.intro-content .recurso { width: 80%; bottom:-3px; }}
 .index-container h2 { font-size: 3em; margin-bottom: .5em;  }
 .index-container h4 {font-size: 1.5em; margin-bottom: 1.5em;}
@@ -326,7 +326,8 @@ a.button.button-white svg { color: #fff; }
 .form-container .txt a.link-whatsapp svg {width: 21px; margin-bottom: -8px; color:#fff}
 .form-container .txt a.link-whatsapp:hover {-webkit-transition: all .5s ease; transition: all .5s ease; color: #273157;}
 .form-container .txt a.link-whatsapp:hover svg {-webkit-transition: all .5s ease; transition: all .5s ease; fill: #273157;}
-.form-container .txt .rrss {margin:75px 0 30px 0;}
+.form-container .txt .localicacion { margin-top: 100px;}
+.form-container .txt .rrss {margin:27px 0 30px 0;}
 .form-container .txt .rrss ul li {display: inline-block; margin-right: 25px;}
 .form-container .txt .rrss ul li svg {fill:#273157;}
 .form-container .txt .rrss ul li svg:hover {-webkit-transition: all .5s ease; transition: all .5s ease; fill: #fff;}
@@ -373,6 +374,7 @@ a.button.button-white svg { color: #fff; }
 .contact-footer .container .tel-box span { font-size: 2.1em; margin: 0 15px; color:#273157;}
 .contact-footer .container .tel { font-size: 1.8em; display: inline-block; color:#273157; }
 .contact-footer .container .tel:hover {color:#ce6a6b; transition: .6s;}
+
 .contact-footer .container .rrss {position: absolute; right: 5em; bottom:4em;}
 .contact-footer .container .rrss ul li {display: inline-block; margin-left: 25px;}
 .contact-footer .container .rrss ul li svg {fill:#273157;}
@@ -414,14 +416,14 @@ footer .nav-footer .container a:hover { color:#ce6a6b; transition: .6s; }
 
 /*cookies*/
 #CybotCookiebotDialog a, #CybotCookiebotDialog div, #CybotCookiebotDialogBodyContentControls, #CybotCookiebotDialogBodyContentTitle {font-family: 'Montserrat' !important;}
-a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection, a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {background-color:#273157 !important; border: 1px solid #273157 !important; padding: 9px 5px !important; display: inline-block !important; width: 184px !important; font-size: 1.1em !important;}
-#CybotCookiebotDialog { background: #f1e9c2 !important; box-shadow: none !important; }
+
+#CybotCookiebotDialog, #CybotCookiebotDialogDetail { background: #f1e9c2 !important; box-shadow: none !important; }
 #CybotCookiebotDialogPoweredbyImage{ display: none !important;}
-a#CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll {background-color:#ce6a6b !important; border: 1px solid #ce6a6b !important;  padding: 9px 5px !important; display: inline-block !important; width: 184px !important; font-size: 1.1em !important;}
+#CybotCookiebotDialogBodyButtonAccept, #CybotCookiebotDialogBodyButtonAccept:hover {background-color:#ce6a6b !important; border: 1px solid #ce6a6b !important;  padding: 9px 5px !important; display: inline-block !important; width: 184px !important; font-size: 1.1em !important;}
 #CybotCookiebotDialogBodyContent { padding: 28px 0 22px 15px !important;}
 #CybotCookiebotDialogBodyContentTitle, #CybotCookiebotDialogBodyContentText {color:#273157 !important;}
-#CybotCookiebotDialogBody {max-width:80% !important;}
-#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper { float: left !important ; margin-bottom:10px !important;}
+#CybotCookiebotDialogBody {max-width:1180px !important;}
+#CybotCookiebotDialogBodyButtons {padding-left:0 !important;}
 
 
 
