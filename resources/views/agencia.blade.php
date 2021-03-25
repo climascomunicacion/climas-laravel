@@ -54,10 +54,9 @@
         <div class="container">
            <div class="intro">
                <h2>@lang('Equipo')</h2>
-               <p>@lang('CLI+ lo formamos tres donostiarras y juntas sumamos más de un cuarto de siglo de experiencia en el sector.')</p>
-               <p>@lang('En nuestra trayectoria hemos trabajado tanto para grandes empresas nacionales y administracines públicas, como para pequeñas empresas locales.')</p>
+               <p>@lang('CLI+ lo formamos tres <strong>donostiarras</strong> y juntas sumamos más de un cuarto de siglo de experiencia en el sector. En nuestra trayectoria hemos trabajado tanto para grandes empresas nacionales y administraciones públicas, como para pequeñas empresas locales.')</p>
                <p>@lang('Trabajo en equipo, pasión, confianza, profesionalidad, transparencia y compromiso son algunas de las palabras que nos definen.')</p>
-               <p>@lang('Si quieres conocernos mejor echa un ojo más abajo:')</p>
+               <p class="p-destacado">@lang('Si quieres conocernos mejor echa un ojo más abajo:')</p>
            </div>
            <div class="components2">
                <div class="item">
