@@ -46,6 +46,8 @@
         <link href="{{ asset('css/menu.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
     
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJS20MP8LY"></script>
     <script>
@@ -57,10 +59,7 @@
     </script>
 @if(Str::contains(Route::currentRouteName(), 'contact'))
 <!-- reCAPTCHA -->
-{!! htmlScriptTagJsApi([
-    'callback_then' => 'callbackThen',
-    'callback_catch' => 'callbackCatch'
-]) !!}
+{!! htmlScriptTagJsApi() !!}
 <!-- / reCAPTCHA -->
  @endif    
 </head>
@@ -90,7 +89,6 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('js/scripts.js') }}"></script>
-    <script src="{{ asset('js/emblem.js') }}"></script>
     <script src="{{ asset('js/button-cursor.js') }}"></script>
 </body>
 </html>
