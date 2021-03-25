@@ -9,7 +9,6 @@
             <h1><img src="{{ asset('img/comillas.png') }}"><br>@lang('Un equipo de marketing dentro de tu empresa')</h1>
             
         </div>
-        <img  src="img/bg-comunicacion.jpg" alt="">
         <img class="comunicacion"
                 src="{{ asset('img/climas-home.jpg') }}"
                 alt="@lang('Agencia de marketing digital: Redes Sociales, Páginas web, estrategia…')" 
