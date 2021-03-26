@@ -39,7 +39,7 @@
                 <li>•	Las cookies de sesión, que se producen al loguearse tienen una duración de 30 minutos desde último período de actividad. Para usuarios registrados.</li>
                 <li>•	Se crea una cookie llamada "lenguaje" para almacenar el lenguaje - en una instalación monolingües esto es simplemente el idioma por defecto del navegador, pero si el sitio es compatible con varios idiomas, entonces puede ser diferente según el idioma seleccionado. Para todo tipos de usuarios.</li>
             </ul>
-            <p>TITULAR ---- NOMBRE DE LA COOKIE ---- FUNCIÓN</p>
+            <p></p>
 
             <h3>¿Cómo puedo configurar mis Cookies?</h3>
             <p>•	Al navegar y continuar en nuestro Sitio Web estará consintiendo el uso de las Cookies en las condiciones contenidas en la presente Política de Cookies. CLI+ COMUNICACIÓN proporciona acceso a esta Política de Cookies en el momento del registro con el objetivo de que el usuario esté informado, y sin perjuicio de que éste pueda ejercer su derecho a bloquear, eliminar y rechazar el uso de Cookies en todo momento.</p>
