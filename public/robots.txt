@@ -1,3 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /cookies/
+Disallow: /legal/
 Sitemap: https://climascomunicacion.com/sitemap.xml
