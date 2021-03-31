@@ -1,6 +1,18 @@
 <?php
 
 return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines contain the default error messages used by
+    | the validator class. Some of these rules have multiple versions such
+    | as the size rules. Feel free to tweak each of these messages here.
+    |
+    */
+
     'accepted'             => 'Dit veld moet geaccepteerd zijn.',
     'active_url'           => 'Dit is geen geldige URL.',
     'after'                => 'Dit moet een datum na :date zijn.',
@@ -9,14 +21,13 @@ return [
     'alpha_dash'           => 'Dit veld mag alleen letters, nummers, underscores (_) en streepjes (-) bevatten.',
     'alpha_num'            => 'Dit veld mag alleen letters en nummers bevatten.',
     'array'                => 'Dit veld moet geselecteerde elementen bevatten.',
-    'attached'             => 'This field is already attached.',
     'before'               => 'Dit moet een datum voor :date zijn.',
     'before_or_equal'      => 'Dit moet een datum voor of gelijk aan :date zijn.',
     'between'              => [
-        'array'   => 'Dit moet tussen :min en :max items bevatten.',
-        'file'    => 'Dit moet tussen :min en :max kilobytes zijn.',
         'numeric' => 'Dit moet tussen :min en :max zijn.',
+        'file'    => 'Dit moet tussen :min en :max kilobytes zijn.',
         'string'  => 'Dit moet tussen :min en :max karakters zijn.',
+        'array'   => 'Dit moet tussen :min en :max items bevatten.',
     ],
     'boolean'              => 'Dit veld moet ja of nee zijn.',
     'confirmed'            => 'De bevestiging komt niet overeen.',
@@ -34,16 +45,16 @@ return [
     'file'                 => 'Dit moet een bestand zijn.',
     'filled'               => 'Dit veld is verplicht.',
     'gt'                   => [
-        'array'   => 'De inhoud moet meer dan :value waardes bevatten.',
-        'file'    => 'Het bestand moet groter zijn dan :value kilobytes.',
         'numeric' => 'De waarde moet groter zijn dan :value.',
+        'file'    => 'Het bestand moet groter zijn dan :value kilobytes.',
         'string'  => 'De waarde moet meer dan :value tekens bevatten.',
+        'array'   => 'De inhoud moet meer dan :value waardes bevatten.',
     ],
     'gte'                  => [
-        'array'   => 'De inhoud moet :value waardes of meer bevatten.',
-        'file'    => 'Het bestand moet groter of gelijk zijn aan :value kilobytes.',
         'numeric' => 'De waarde moet groter of gelijk zijn aan :value.',
+        'file'    => 'Het bestand moet groter of gelijk zijn aan :value kilobytes.',
         'string'  => 'De waarde moet minimaal :value tekens bevatten.',
+        'array'   => 'De inhoud moet :value waardes of meer bevatten.',
     ],
     'image'                => 'Dit moet een afbeelding zijn.',
     'in'                   => 'De geselecteerde waarde is ongeldig.',
@@ -54,30 +65,30 @@ return [
     'ipv6'                 => 'Dit moet een geldig IPv6-adres zijn.',
     'json'                 => 'Dit moet een geldige JSON-string zijn.',
     'lt'                   => [
-        'array'   => 'De inhoud moet minder dan :value waardes bevatten.',
-        'file'    => 'Het bestand moet kleiner zijn dan :value kilobytes.',
         'numeric' => 'De waarde moet kleiner zijn dan :value.',
+        'file'    => 'Het bestand moet kleiner zijn dan :value kilobytes.',
         'string'  => 'De waarde moet minder dan :value tekens bevatten.',
+        'array'   => 'De inhoud moet minder dan :value waardes bevatten.',
     ],
     'lte'                  => [
-        'array'   => 'De inhoud moet :value waardes of minder bevatten.',
-        'file'    => 'Het bestand moet kleiner of gelijk zijn aan :value kilobytes.',
         'numeric' => 'De waarde moet kleiner of gelijk zijn aan :value.',
+        'file'    => 'Het bestand moet kleiner of gelijk zijn aan :value kilobytes.',
         'string'  => 'De waarde moet maximaal :value tekens bevatten.',
+        'array'   => 'De inhoud moet :value waardes of minder bevatten.',
     ],
     'max'                  => [
-        'array'   => 'De inhoud mag niet meer dan :max items bevatten.',
-        'file'    => 'Het bestand mag niet meer dan :max kilobytes zijn.',
         'numeric' => 'De waarde mag niet hoger dan :max zijn.',
+        'file'    => 'Het bestand mag niet meer dan :max kilobytes zijn.',
         'string'  => 'De waarde mag niet uit meer dan :max tekens bestaan.',
+        'array'   => 'De inhoud mag niet meer dan :max items bevatten.',
     ],
     'mimes'                => 'Dit moet een bestand zijn van het bestandstype :values.',
     'mimetypes'            => 'Dit moet een bestand zijn van het bestandstype :values.',
     'min'                  => [
-        'array'   => 'De inhoud moet minimaal :min items bevatten.',
-        'file'    => 'Het bestand moet minimaal :min kilobytes zijn.',
         'numeric' => 'De waarde moet minimaal :min zijn.',
+        'file'    => 'Het bestand moet minimaal :min kilobytes zijn.',
         'string'  => 'De waarde moet minimaal :min tekens zijn.',
+        'array'   => 'De inhoud moet minimaal :min items bevatten.',
     ],
     'multiple_of'          => 'De waarde moet een veelvoud van :value zijn.',
     'not_in'               => 'De geselecteerde waarde is ongeldig.',
@@ -86,7 +97,6 @@ return [
     'password'             => 'Het wachtwoord is onjuist.',
     'present'              => 'Dit veld moet bestaan.',
     'regex'                => 'Dit formaat is ongeldig.',
-    'relatable'            => 'This field may not be associated with this resource.',
     'required'             => 'Dit veld is verplicht.',
     'required_if'          => 'Dit veld is verplicht indien :other gelijk is aan :value.',
     'required_unless'      => 'Dit veld is verplicht tenzij :other gelijk is aan :values.',
@@ -96,10 +106,10 @@ return [
     'required_without_all' => 'Dit veld is verplicht als :values niet ingevuld zijn.',
     'same'                 => 'De waarde van dit veld en :other moeten overeenkomen.',
     'size'                 => [
-        'array'   => ':de inhoud moet :size items bevatten.',
-        'file'    => ':Het bestand moet :size kilobyte zijn.',
         'numeric' => ':De waarde moet :size zijn.',
+        'file'    => ':Het bestand moet :size kilobyte zijn.',
         'string'  => ':De waarde moet :size tekens zijn.',
+        'array'   => ':de inhoud moet :size items bevatten.',
     ],
     'starts_with'          => 'Dit moet starten met een van de volgende: :values.',
     'string'               => 'Dit moet een tekst zijn.',
@@ -108,10 +118,22 @@ return [
     'uploaded'             => 'Het uploaden hiervan is mislukt.',
     'url'                  => 'Dit moet een geldige URL zijn.',
     'uuid'                 => 'Dit moet een geldige UUID zijn.',
-    'custom'               => [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify custom validation messages for attributes using the
+    | convention "attribute.rule" to name the lines. This makes it quick to
+    | specify a specific custom language line for a given attribute rule.
+    |
+    */
+
+    'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
     ],
-    'attributes'           => [],
+
 ];

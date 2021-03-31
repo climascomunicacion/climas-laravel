@@ -1,6 +1,17 @@
 <?php
 
 return [
+    /*
+    |--------------------------------------------------------------------------
+    | Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines contain the default error messages used by
+    | the validator class. Some of these rules have multiple versions such
+    | as the size rules. Feel free to tweak each of these messages here.
+    |
+    */
+
     'accepted'             => ':attribute ត្រូវបានទទួលយក។',
     'active_url'           => ':attribute មិនមែនជា URL ត្រឹមត្រូវឡើយ។',
     'after'                => ':attribute ត្រូវតែមានកាលបរិច្ឆេទបន្ទាប់ពី :date។',
@@ -9,14 +20,13 @@ return [
     'alpha_dash'           => ':attribute អាចមានតែអក្សរ លេខ និងសហសញ្ញា(-)។',
     'alpha_num'            => ':attribute អាចមានតែអក្សរ និងលេខ។',
     'array'                => ':attribute ត្រូវតែជា សំណុំ។',
-    'attached'             => 'This :attribute is already attached.',
     'before'               => ':attribute ត្រូវតែមានកាលបរិច្ឆេទមុន :date។',
     'before_or_equal'      => ':attribute ត្រូវតែជាកាលបរិច្ឆេទ មុនឬស្មើ :date។',
     'between'              => [
-        'array'   => ':attribute ត្រូវតែមានចំនួនរវាង :min និង :max។',
-        'file'    => ':attribute ត្រូវតែមានរវាង :min និង :max គីឡូបៃ។',
         'numeric' => ':attribute ត្រូវតែមានរវាង :min និង :max។',
+        'file'    => ':attribute ត្រូវតែមានរវាង :min និង :max គីឡូបៃ។',
         'string'  => ':attribute ត្រូវតែមានរវាង :min និង :max តួអក្សរ។',
+        'array'   => ':attribute ត្រូវតែមានចំនួនរវាង :min និង :max។',
     ],
     'boolean'              => ':attribute ត្រូវតែជា true ឬ false',
     'confirmed'            => ':attribute ការបញ្ជាក់មិនផ្គូរផ្គង។',
@@ -34,16 +44,16 @@ return [
     'file'                 => ':attribute ត្រូវតែជាប្រភេទឯកសារ។',
     'filled'               => 'ទម្រង់ :attribute នេះគឺទាមទារឲ្យមាន។',
     'gt'                   => [
-        'array'   => ':attribute ត្រូវមានច្រើនជាង :value។',
-        'file'    => ':attribute ត្រូវតែធំជាង :value គីឡូបៃ។',
         'numeric' => ':attribute ត្រូវតែធំជាង :value។',
+        'file'    => ':attribute ត្រូវតែធំជាង :value គីឡូបៃ។',
         'string'  => ':attribute ត្រូវតែធំជាង :value តួអក្សរ។',
+        'array'   => ':attribute ត្រូវមានច្រើនជាង :value។',
     ],
     'gte'                  => [
-        'array'   => ':attribute ត្រូវមានចំនួន :value ឬច្រើនជាង។',
-        'file'    => ':attribute ត្រូវតែធំជាងឬស្មើ :value គីឡូបៃ។',
         'numeric' => ':attribute ត្រូវតែធំជាងឬស្មើ :value.',
+        'file'    => ':attribute ត្រូវតែធំជាងឬស្មើ :value គីឡូបៃ។',
         'string'  => ':attribute ត្រូវតែធំជាងឬស្មើ :value តួអក្សរ។',
+        'array'   => ':attribute ត្រូវមានចំនួន :value ឬច្រើនជាង។',
     ],
     'image'                => ':attribute ត្រូវតៃជារូបភាព។',
     'in'                   => 'ការជ្រើសរើស :attribute មិនត្រឹមត្រូវ។',
@@ -54,30 +64,30 @@ return [
     'ipv6'                 => ':attribute ត្រូវតែជា IPv6 address ត្រឹមត្រូវ។',
     'json'                 => ':attribute ត្រូវតែជា JSON string ត្រឹមត្រូវ។',
     'lt'                   => [
-        'array'   => ':attribute ត្រូវតែមានចំនួនតិចជាង :value។',
-        'file'    => ':attribute ត្រូវតែតិចជាង :value គីឡូបៃ។',
         'numeric' => ':attribute ត្រូវតែតិចជាង :value.',
+        'file'    => ':attribute ត្រូវតែតិចជាង :value គីឡូបៃ។',
         'string'  => ':attribute ត្រូវតែតិចជាង :value តួអក្សរ។',
+        'array'   => ':attribute ត្រូវតែមានចំនួនតិចជាង :value។',
     ],
     'lte'                  => [
-        'array'   => ':attribute ត្រូវមានចំនួនតិចជាង :value។',
-        'file'    => ':attribute ត្រូវតែតិចជាងឬស្មើ :value គីឡូបៃ។',
         'numeric' => ':attribute ត្រូវតែតិចជាងឬស្មើ :value.',
+        'file'    => ':attribute ត្រូវតែតិចជាងឬស្មើ :value គីឡូបៃ។',
         'string'  => ':attribute ត្រូវតែតិចជាងឬស្មើ :value តួអក្សរ។',
+        'array'   => ':attribute ត្រូវមានចំនួនតិចជាង :value។',
     ],
     'max'                  => [
-        'array'   => ':attribute មិនត្រូវច្រើនជាងធាតុនេះ :max។',
-        'file'    => ':attribute មិនត្រូវធំជាង :max គីឡូបៃ។',
         'numeric' => ':attribute មិនត្រូវធំជាង :max។',
+        'file'    => ':attribute មិនត្រូវធំជាង :max គីឡូបៃ។',
         'string'  => ':attribute មិនត្រូវធំជាង :max តួអក្សរ។',
+        'array'   => ':attribute មិនត្រូវច្រើនជាងធាតុនេះ :max។',
     ],
     'mimes'                => ':attribute ត្រូវតែជាប្រភេទឯកសារ type: :values នេះ។',
     'mimetypes'            => ':attribute ត្រូវតែជាប្រភេទឯកសារ type: :values នេះ។',
     'min'                  => [
-        'array'   => ':attribute ត្រូវតែតិចជាងធាតុនេះ :min។',
-        'file'    => ':attribute ត្រូវតៃតួចជាង :min គីឡូបៃ។',
         'numeric' => ':attribute ត្រូវតែតូចជាង :min។',
+        'file'    => ':attribute ត្រូវតៃតួចជាង :min គីឡូបៃ។',
         'string'  => ':attribute ត្រូវតែតូចជាង :min តួអក្សរ។',
+        'array'   => ':attribute ត្រូវតែតិចជាងធាតុនេះ :min។',
     ],
     'multiple_of'          => ':attribute ត្រូវតែជាចំនួនចែកដាច់នឹង :value។',
     'not_in'               => 'ការជ្រើសរើស :attribute គឺមិនត្រឹមត្រូវ។',
@@ -86,7 +96,6 @@ return [
     'password'             => 'ពាក្យសម្ងាត់មិនត្រឺមត្រូវ។',
     'present'              => ':attribute ត្រូវតែមាន។',
     'regex'                => ':attribute ទម្រង់មិនត្រឹមត្រូវ។',
-    'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => ':attribute នេះគឺទាមទារឲ្យមាន។',
     'required_if'          => ':attribute នេះគឺទាមទារនៅពេល :other គឺ :value។',
     'required_unless'      => ':attribute នេះគឺទាមទារនៅពេល :other មិនមែន :values។',
@@ -96,10 +105,10 @@ return [
     'required_without_all' => ':attribute នេះគឺត្រូវបានទាមទារពេល :values មិនមាន។',
     'same'                 => ':attribute និង :other ត្រូវតែដូចគ្នា។',
     'size'                 => [
-        'array'   => ':attribute ត្រូវតែមានទំហំ :size។',
-        'file'    => ':attribute ត្រូវតែ :size គីឡូបៃ។',
         'numeric' => ':attribute ត្រូវតែ :size។',
+        'file'    => ':attribute ត្រូវតែ :size គីឡូបៃ។',
         'string'  => ':attribute ត្រូវតែ :size តួអក្សរ។',
+        'array'   => ':attribute ត្រូវតែមានទំហំ :size។',
     ],
     'starts_with'          => ':attribute ត្រូវចាប់ផ្តើមដោយ :values ណាមួយ។',
     'string'               => ':attribute ត្រូវតែជាប្រភេទតួអក្សរ។',
@@ -108,10 +117,34 @@ return [
     'uploaded'             => ':attribute បរាជ័យក្នុងការបញ្ចូល។',
     'url'                  => ':attribute ទម្រង់ត្រឹមត្រូវ។',
     'uuid'                 => ':attribute ត្រូវតែជាទម្រង់ UUID។',
-    'custom'               => [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify custom validation messages for attributes using the
+    | convention "attribute.rule" to name the lines. This makes it quick to
+    | specify a specific custom language line for a given attribute rule.
+    |
+    */
+
+    'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
     ],
-    'attributes'           => [],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Attributes
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used to swap attribute place-holders
+    | with something more reader friendly such as E-Mail Address instead
+    | of "email". This simply helps us make messages a little cleaner.
+    |
+    */
+
+    'attributes' => [],
 ];

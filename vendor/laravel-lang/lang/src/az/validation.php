@@ -1,6 +1,17 @@
 <?php
 
 return [
+    /*
+    |--------------------------------------------------------------------------
+    | Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines contain the default error messages used by
+    | the validator class. Some of these rules have multiple versions such
+    | as the size rules. Feel free to tweak each of these messages here.
+    |
+    */
+
     'accepted'             => ':attribute qəbul edilməlidir',
     'active_url'           => ':attribute doğru URL deyil',
     'after'                => ':attribute :date tarixindən sonra olmalıdır',
@@ -9,14 +20,13 @@ return [
     'alpha_dash'           => ':attribute yalnız hərf, rəqəm və tire simvolundan ibarət ola bilər',
     'alpha_num'            => ':attribute yalnız hərf və rəqəmlərdən ibarət ola bilər',
     'array'                => ':attribute massiv formatında olmalıdır',
-    'attached'             => 'This :attribute is already attached.',
     'before'               => ':attribute :date tarixindən əvvəl olmalıdır',
     'before_or_equal'      => ':attribute :date tarixindən əvvəl və ya bərabər olmalıdır',
     'between'              => [
-        'array'   => ':attribute :min ilə :max intervalında hissədən ibarət olmalıdır',
-        'file'    => ':attribute :min ilə :max KB ölçüsü intervalında olmalıdır',
         'numeric' => ':attribute :min ilə :max arasında olmalıdır',
+        'file'    => ':attribute :min ilə :max KB ölçüsü intervalında olmalıdır',
         'string'  => ':attribute :min ilə :max simvolu intervalında olmalıdır',
+        'array'   => ':attribute :min ilə :max intervalında hissədən ibarət olmalıdır',
     ],
     'boolean'              => ' :attribute doğru və ya yanlış ola bilər',
     'confirmed'            => ' :attribute doğrulanması yanlışdır',
@@ -34,16 +44,16 @@ return [
     'file'                 => ' :attribute fayl formatında olmalıdır',
     'filled'               => ' :attribute qiyməti olmalıdır',
     'gt'                   => [
-        'array'   => 'The :attribute must have more than :value items.',
-        'file'    => 'The :attribute must be greater than :value kilobytes.',
         'numeric' => 'The :attribute must be greater than :value.',
+        'file'    => 'The :attribute must be greater than :value kilobytes.',
         'string'  => 'The :attribute must be greater than :value characters.',
+        'array'   => 'The :attribute must have more than :value items.',
     ],
     'gte'                  => [
-        'array'   => 'The :attribute must have :value items or more.',
-        'file'    => 'The :attribute must be greater than or equal :value kilobytes.',
         'numeric' => 'The :attribute must be greater than or equal :value.',
+        'file'    => 'The :attribute must be greater than or equal :value kilobytes.',
         'string'  => 'The :attribute must be greater than or equal :value characters.',
+        'array'   => 'The :attribute must have :value items or more.',
     ],
     'image'                => ' :attribute şəkil formatında olmalıdır',
     'in'                   => ' seçilmiş :attribute yanlışdır',
@@ -54,30 +64,30 @@ return [
     'ipv6'                 => ' :attribute İPv6 adres formatında olmalıdır',
     'json'                 => ' :attribute JSON formatında olmalıdır',
     'lt'                   => [
-        'array'   => 'The :attribute must have less than :value items.',
-        'file'    => 'The :attribute must be less than :value kilobytes.',
         'numeric' => 'The :attribute must be less than :value.',
+        'file'    => 'The :attribute must be less than :value kilobytes.',
         'string'  => 'The :attribute must be less than :value characters.',
+        'array'   => 'The :attribute must have less than :value items.',
     ],
     'lte'                  => [
-        'array'   => 'The :attribute must not have more than :value items.',
-        'file'    => 'The :attribute must be less than or equal :value kilobytes.',
         'numeric' => 'The :attribute must be less than or equal :value.',
+        'file'    => 'The :attribute must be less than or equal :value kilobytes.',
         'string'  => 'The :attribute must be less than or equal :value characters.',
+        'array'   => 'The :attribute must not have more than :value items.',
     ],
     'max'                  => [
-        'array'   => ' :attribute maksimum :max hədd\'dən ibarət ola bilər',
-        'file'    => ' :attribute maksimum :max KB ölçüsündə ola bilər',
         'numeric' => ' :attribute maksiumum :max rəqəmdən ibarət ola bilər',
+        'file'    => ' :attribute maksimum :max KB ölçüsündə ola bilər',
         'string'  => ' :attribute maksimum :max simvoldan ibarət ola bilər',
+        'array'   => ' :attribute maksimum :max hədd\'dən ibarət ola bilər',
     ],
     'mimes'                => ' :attribute :values tipində fayl olmalıdır',
     'mimetypes'            => ' :attribute :values tipində fayl olmalıdır',
     'min'                  => [
-        'array'   => ' :attribute minimum :min hədd\'dən ibarət ola bilər',
-        'file'    => ' :attribute minimum :min KB ölçüsündə ola bilər',
         'numeric' => ' :attribute minimum :min rəqəmdən ibarət ola bilər',
+        'file'    => ' :attribute minimum :min KB ölçüsündə ola bilər',
         'string'  => ' :attribute minimum :min simvoldan ibarət ola bilər',
+        'array'   => ' :attribute minimum :min hədd\'dən ibarət ola bilər',
     ],
     'multiple_of'          => 'The :attribute must be a multiple of :value',
     'not_in'               => ' seçilmiş :attribute yanlışdır',
@@ -86,7 +96,6 @@ return [
     'password'             => 'The password is incorrect.',
     'present'              => ' :attribute iştirak etməlidir',
     'regex'                => ' :attribute formatı yanlışdır',
-    'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => ' :attribute mütləqdir',
     'required_if'          => ' :attribute (:other :value ikən) mütləqdir',
     'required_unless'      => ' :attribute (:other :values \'ə daxil ikən) mütləqdir',
@@ -96,10 +105,10 @@ return [
     'required_without_all' => ' :attribute (:values yox ikən) mütləqdir',
     'same'                 => ' :attribute və :other eyni olmalıdır',
     'size'                 => [
-        'array'   => ' :attribute :size hədd\'dən ibarət olmalıdır',
-        'file'    => ' :attribute :size KB ölçüsündə olmalıdır',
         'numeric' => ' :attribute :size ölçüsündə olmalıdır',
+        'file'    => ' :attribute :size KB ölçüsündə olmalıdır',
         'string'  => ' :attribute :size simvoldan ibarət olmalıdır',
+        'array'   => ' :attribute :size hədd\'dən ibarət olmalıdır',
     ],
     'starts_with'          => 'The :attribute must start with one of the following: :values.',
     'string'               => ' :attribute hərf formatında olmalıdır',
@@ -108,10 +117,34 @@ return [
     'uploaded'             => ' :attribute yüklənməsi mümkün olmadı',
     'url'                  => ' :attribute formatı yanlışdır',
     'uuid'                 => 'The :attribute must be a valid UUID.',
-    'custom'               => [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify custom validation messages for attributes using the
+    | convention "attribute.rule" to name the lines. This makes it quick to
+    | specify a specific custom language line for a given attribute rule.
+    |
+    */
+
+    'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
     ],
-    'attributes'           => [],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Attributes
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used to swap attribute place-holders
+    | with something more reader friendly such as E-Mail Address instead
+    | of "email". This simply helps us make messages a little cleaner.
+    |
+    */
+
+    'attributes' => [],
 ];
