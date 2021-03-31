@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title', __('CLI+ | Un equipo de marketing dentro de tu empresa'))
-@section('description', __('Somos una agencia de comunicación y queremos formar parte de tu proyecto. Dinos en qué podemos ayudarte, nos adaptamos a ti y a tu negocio. ¿Y si somos lo que necesitas?'))
+@section('description', __('Una agencia de comunicación, publicidad y marketing digital. Dinos en qué podemos ayudarte, nos adaptamos a ti y a tu negocio. ¿Y si somos lo que necesitas?'))
 
 @section('content')
 <section class="">

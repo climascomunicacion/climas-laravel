@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title', __('CLI+ | Descubre todo lo que podemos hacer por ti y tu negocio'))
-@section('description', __('Somos expertas en el ámbito digital, pero tenemos todo tipo de servicios de marketing personalizados. Cuéntanos lo que necesitas y trabajemos juntos.'))
+@section('description', __('Expertas en el ámbito digital, pero tenemos todo tipo de servicios personalizados. Branding, Estrategia, Redes Sociales, Páginas web, eventos...'))
 
 
 
@@ -98,7 +98,7 @@
                             <div class="txt">
                                 <div class="swiper-pagination"></div>
                                 <h2>@lang('¿No sabes por dónde empezar?')</h2>
-                                <p><strong>@lang('Nosotras te ayudamos</strong>: creación o actualización de logotipo, catálogos, flyers, cartas, creación de perfiles sociales, desarrollo de tu página web... y para todo lo que se te ocurra puedes contar con CLI+.')</p>
+                                <p>@lang('<strong>Nosotras te ayudamos</strong>: creación o actualización de logotipo, catálogos, flyers, cartas, creación de perfiles sociales, desarrollo de tu página web... y para todo lo que se te ocurra puedes contar con CLI+.')</p>
                             </div>
                         </div>
                     </div>

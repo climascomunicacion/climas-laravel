@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title', __('CLI+ | Agencia de comunicación digital ¿Quieres conocernos? '))
-@section('description', __('Nosotras somos CLI y el + eres tú. Lo nuestro es el marketing, la comunicación y la publicidad y queremos ayudarte a alcanzar los objetivos de tu negocio.'))
+@section('description', __('Nosotras somos CLI y el + eres tu. Tres donostiarras con amplia experiencia en el sector. Queremos ayudarte a alcanzar los objetivos de tu empresa.'))
 
 @section('content')
 
