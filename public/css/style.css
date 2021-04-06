@@ -417,14 +417,17 @@ footer .nav-footer .container a:hover { color:#ce6a6b; transition: .6s; }
 
 /*cookies*/
 #CybotCookiebotDialog a, #CybotCookiebotDialog div, #CybotCookiebotDialogBodyContentControls, #CybotCookiebotDialogBodyContentTitle {font-family: 'Montserrat' !important;}
+#CybotCookiebotDialogBodyContentText p {font-size: 1.1em !important;}
 
 #CybotCookiebotDialog, #CybotCookiebotDialogDetail { background: #f1e9c2 !important; box-shadow: none !important; }
 #CybotCookiebotDialogPoweredbyImage{ display: none !important;}
-#CybotCookiebotDialogBodyButtonAccept, #CybotCookiebotDialogBodyButtonAccept:hover {background-color:#ce6a6b !important; border: 1px solid #ce6a6b !important;  padding: 9px 5px !important; display: inline-block !important; width: 184px !important; font-size: 1.1em !important;}
+a#CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll, a#CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover {background-color:#ce6a6b !important; border: 1px solid #ce6a6b !important;  padding: 9px 5px !important; display: inline-block !important; width: 184px !important; font-size: 1.1em !important;}
+a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover,a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll, a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover {background-color:#273157 !important; border: 1px solid #273157 !important;  padding: 9px 5px !important; display: inline-block !important; width: 184px !important; font-size: 1.1em !important;}
 #CybotCookiebotDialogBodyContent { padding: 28px 0 22px 15px !important;}
 #CybotCookiebotDialogBodyContentTitle, #CybotCookiebotDialogBodyContentText {color:#273157 !important;}
 #CybotCookiebotDialogBody {max-width:1180px !important;}
 #CybotCookiebotDialogBodyButtons {padding-left:0 !important;}
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper {text-align:center !important;}
 
 
 
