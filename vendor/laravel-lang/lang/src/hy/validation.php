@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => ':attribute դաշտը պետք է ընդունվի։',
     'active_url'           => ':attribute դաշտը վավեր URL չէ։',
@@ -9,7 +20,7 @@ return [
     'alpha_dash'           => ':attribute դաշտը պետք է պարունակի միայն տառեր, թվեր, գծիկներ և ընդգծումներ։',
     'alpha_num'            => ':attribute դաշտը պետք է պարունակի միայն տառեր և թվեր։',
     'array'                => ':attribute դաշտը պետք է լինի զանգված։',
-    'attached'             => 'This :attribute is already attached.',
+    'attached'             => ':attribute դաշտը արդեն կցված է։',
     'before'               => ':attribute դաշտի ամսաթիվը պետք է լինի :date-ից առաջ։',
     'before_or_equal'      => ':attribute դաշտի ամսաթիվը պետք է լինի :date կամ դրանից առաջ։',
     'between'              => [
@@ -79,14 +90,17 @@ return [
         'numeric' => ':attribute դաշտը պետք է լինի առնվազն :min։',
         'string'  => ':attribute դաշտի նիշերի քանակը պետք է լինի առնվազն :min։',
     ],
-    'multiple_of'          => 'The :attribute must be a multiple of :value',
+    'multiple_of'          => ':attribute դաշտի արժեքը պետք է լինի բազմապատիկ :value-ին։',
     'not_in'               => ':attribute դաշտի ընտրված արժեքն անվավեր է։',
     'not_regex'            => ':attribute դաշտի ձևաչափը սխալ է։',
     'numeric'              => ':attribute դաշտը պետք է լինի թիվ։',
     'password'             => 'Գաղտնաբառը սխալ է։',
     'present'              => ':attribute դաշտը պետք է առկա լինի։',
+    'prohibited'           => ':attribute դաշտը արգելված է։',
+    'prohibited_if'        => ':attribute դաշտը արգելված է երբ :other դաշտի արժեքը :value է։',
+    'prohibited_unless'    => ':attribute դաշտը արգելված է քանի դեռ :other դաշտի արժեքը :values միջակայքում չի։',
     'regex'                => ':attribute դաշտի ձևաչափը սխալ է։',
-    'relatable'            => 'This :attribute may not be associated with this resource.',
+    'relatable'            => ':attribute դաշտը չի կարող կցվել տվյալ ռեսուրսին։',
     'required'             => ':attribute դաշտը պարտադիր է։',
     'required_if'          => ':attribute դաշտը պարտադիր է երբ :other-ը հավասար է :value։',
     'required_unless'      => ':attribute դաշտը պարտադիր է քանի դեռ :other-ը հավասար չէ :values։',

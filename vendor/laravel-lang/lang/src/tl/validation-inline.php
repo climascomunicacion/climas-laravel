@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'This field must be accepted.',
     'active_url'           => 'This is not a valid URL.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'This must be a number.',
     'password'             => 'The password is incorrect.',
     'present'              => 'This field must be present.',
+    'prohibited'           => 'This field is prohibited.',
+    'prohibited_if'        => 'This field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'This field is prohibited unless :other is in :values.',
     'regex'                => 'This format is invalid.',
     'relatable'            => 'This field may not be associated with this resource.',
     'required'             => 'This field is required.',

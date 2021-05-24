@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Вы должны принять :attribute.',
     'active_url'           => 'Поле :attribute содержит недействительный URL.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'Поле :attribute должно быть числом.',
     'password'             => 'Неверный пароль.',
     'present'              => 'Поле :attribute должно присутствовать.',
+    'prohibited'           => 'Поле :attribute запрещено.',
+    'prohibited_if'        => 'Поле :attribute запрещено, когда :other равно :value.',
+    'prohibited_unless'    => 'Поле :attribute запрещено, если :other не входит в :values.',
     'regex'                => 'Поле :attribute имеет ошибочный формат.',
     'relatable'            => 'Поле :attribute не может быть связано с этим ресурсом.',
     'required'             => 'Поле :attribute обязательно для заполнения.',

@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Bidang ini harus diterima.',
     'active_url'           => 'URL ini tidak sah.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'Ini harus berisi angka.',
     'password'             => 'Kata sandi tidak sesuai',
     'present'              => 'Bidang ini wajib ada.',
+    'prohibited'           => 'This field is prohibited.',
+    'prohibited_if'        => 'This field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'This field is prohibited unless :other is in :values.',
     'regex'                => 'Format ini tidak sesuai.',
     'relatable'            => 'This field may not be associated with this resource.',
     'required'             => 'Bidang ini wajib di isi',

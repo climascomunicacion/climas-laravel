@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Lazima kipengele kikubalike.',
     'active_url'           => 'Kipengele sio Chanzo Cha Anuani halali.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'Kipengele lazima kiwe nambari.',
     'password'             => 'The password is incorrect.',
     'present'              => 'Sehemu ya kipengele lazima iwepo.',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => 'Muundo wa kipengele si halali.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => 'Sehemu ya kipengele inahitajika.',

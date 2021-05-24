@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Rhaid derbyn :attribute.',
     'active_url'           => 'Nid yw :attribute yn URL dilys.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'Rhaid i :attribute fod yn rif.',
     'password'             => 'The password is incorrect.',
     'present'              => 'The :attribute field must be present.',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => 'Nid yw fformat :attribute yn ddilys.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => 'Rhaid cynnwys :attribute.',

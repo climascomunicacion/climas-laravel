@@ -5,7 +5,6 @@ namespace Illuminate\Support;
 use ArrayIterator;
 use Closure;
 use DateTimeInterface;
-use Generator;
 use Illuminate\Support\Traits\EnumeratesValues;
 use Illuminate\Support\Traits\Macroable;
 use IteratorAggregate;
@@ -30,7 +29,7 @@ class LazyCollection implements Enumerable
      */
     public function __construct($source = null)
     {
-        if ($source instanceof Closure || $source instanceof Generator || $source instanceof self) {
+        if ($source instanceof Closure || $source instanceof self) {
             $this->source = $source;
         } elseif (is_null($source)) {
             $this->source = static::empty();
@@ -317,7 +316,7 @@ class LazyCollection implements Enumerable
     /**
      * Retrieve duplicate items.
      *
-     * @param  callable|null  $callback
+     * @param  callable|string|null  $callback
      * @param  bool  $strict
      * @return static
      */
@@ -329,7 +328,7 @@ class LazyCollection implements Enumerable
     /**
      * Retrieve duplicate items using strict comparison.
      *
-     * @param  callable|null  $callback
+     * @param  callable|string|null  $callback
      * @return static
      */
     public function duplicatesStrict($callback = null)
@@ -1012,6 +1011,31 @@ class LazyCollection implements Enumerable
     }
 
     /**
+     * Get the first item in the collection, but only if exactly one item exists. Otherwise, throw an exception.
+     *
+     * @param  mixed  $key
+     * @param  mixed  $operator
+     * @param  mixed  $value
+     * @return mixed
+     *
+     * @throws \Illuminate\Collections\ItemNotFoundException
+     * @throws \Illuminate\Collections\MultipleItemsFoundException
+     */
+    public function sole($key = null, $operator = null, $value = null)
+    {
+        $filter = func_num_args() > 1
+            ? $this->operatorForWhere(...func_get_args())
+            : $key;
+
+        return $this
+            ->when($filter)
+            ->filter($filter)
+            ->take(2)
+            ->collect()
+            ->sole();
+    }
+
+    /**
      * Chunk the collection into chunks of the given size.
      *
      * @param  int  $size
@@ -1365,10 +1389,6 @@ class LazyCollection implements Enumerable
      */
     protected function makeIterator($source)
     {
-        if ($source instanceof Generator) {
-            return $source;
-        }
-
         if ($source instanceof IteratorAggregate) {
             return $source->getIterator();
         }

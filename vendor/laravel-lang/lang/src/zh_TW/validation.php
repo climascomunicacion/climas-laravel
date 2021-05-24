@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => '必須接受 :attribute。',
     'active_url'           => ':attribute 不是有效的網址。',
@@ -85,6 +96,9 @@ return [
     'numeric'              => ':attribute 必須為一個數字。',
     'password'             => '密碼錯誤',
     'present'              => ':attribute 必須存在。',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => ':attribute 的格式錯誤。',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => ':attribute 不能留空。',

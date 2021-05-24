@@ -1,5 +1,4 @@
 {
-    "*": "*",
     "30 Days": "30 Days",
     "60 Days": "60 Days",
     "90 Days": "90 Days",
@@ -89,7 +88,7 @@
     "Brazil": "Brazil",
     "British Indian Ocean Territory": "British Indian Ocean Territory",
     "Browser Sessions": "Browser Sessions",
-    "Brunei Darussalam": "Brunei",
+    "Brunei Darussalam": "Brunei Darussalam",
     "Bulgaria": "Bulgaria",
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
@@ -129,7 +128,7 @@
     "Constant": "Constant",
     "Cook Islands": "Cook Islands",
     "Costa Rica": "Costa Rica",
-    "Cote D'Ivoire": "Côte d'Ivoire",
+    "Cote D'Ivoire": "Cote D'Ivoire",
     "could not be found.": "could not be found.",
     "Create & Add Another": "Create & Add Another",
     "Create :resource": "Create :resource",
@@ -232,7 +231,7 @@
     "Hello!": "Hello!",
     "Hide Content": "Hide Content",
     "Hold Up!": "Hold Up!",
-    "Holy See (Vatican City State)": "Vatican City",
+    "Holy See (Vatican City State)": "Holy See (Vatican City State)",
     "Honduras": "Honduras",
     "Hong Kong": "Hong Kong",
     "Hungary": "Hungary",
@@ -487,7 +486,7 @@
     "Sudan": "Sudan",
     "Suriname": "Suriname",
     "Svalbard And Jan Mayen": "Svalbard and Jan Mayen",
-    "Swaziland": "Eswatini",
+    "Swaziland": "Swaziland",
     "Sweden": "Sweden",
     "Switch Teams": "Switch Teams",
     "Switzerland": "Switzerland",
@@ -586,7 +585,7 @@
     "Venezuela": "Venezuela",
     "Verify Email Address": "Verify Email Address",
     "Verify Your Email Address": "Verify Your Email Address",
-    "Viet Nam": "Vietnam",
+    "Viet Nam": "Viet Nam",
     "View": "View",
     "Virgin Islands, British": "British Virgin Islands",
     "Virgin Islands, U.S.": "U.S. Virgin Islands",
@@ -615,6 +614,5 @@
     "You may not leave a team that you created.": "You may not leave a team that you created.",
     "Your email address is not verified.": "Your email address is not verified.",
     "Zambia": "Zambia",
-    "Zimbabwe": "Zimbabwe",
-    "—": "—"
+    "Zimbabwe": "Zimbabwe"
 }

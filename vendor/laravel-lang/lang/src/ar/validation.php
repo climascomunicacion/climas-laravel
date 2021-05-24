@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'يجب قبول :attribute.',
     'active_url'           => ':attribute لا يُمثّل رابطًا صحيحًا.',
@@ -9,7 +20,7 @@ return [
     'alpha_dash'           => 'يجب أن لا يحتوي :attribute سوى على حروف، أرقام ومطّات.',
     'alpha_num'            => 'يجب أن يحتوي :attribute على حروفٍ وأرقامٍ فقط.',
     'array'                => 'يجب أن يكون :attribute ًمصفوفة.',
-    'attached'             => 'This :attribute is already attached.',
+    'attached'             => ':attribute تم إرفاقه بالفعل.',
     'before'               => 'يجب على :attribute أن يكون تاريخًا سابقًا للتاريخ :date.',
     'before_or_equal'      => ':attribute يجب أن يكون تاريخا سابقا أو مطابقا للتاريخ :date.',
     'between'              => [
@@ -85,8 +96,11 @@ return [
     'numeric'              => 'يجب على :attribute أن يكون رقمًا.',
     'password'             => 'كلمة المرور غير صحيحة.',
     'present'              => 'يجب تقديم :attribute.',
+    'prohibited'           => ':attribute محظور.',
+    'prohibited_if'        => ':attribute محظور إذا كان :other هو :value.',
+    'prohibited_unless'    => ':attribute محظور ما لم يكن :other ضمن :values.',
     'regex'                => 'صيغة :attribute .غير صحيحة.',
-    'relatable'            => 'This :attribute may not be associated with this resource.',
+    'relatable'            => ':attribute قد لا يكون مرتبطا بالمصدر المحدد.',
     'required'             => ':attribute مطلوب.',
     'required_if'          => ':attribute مطلوب في حال ما إذا كان :other يساوي :value.',
     'required_unless'      => ':attribute مطلوب في حال ما لم يكن :other يساوي :values.',

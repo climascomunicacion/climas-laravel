@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => ':attribute mutlaka kabul edilmelidir.',
     'active_url'           => ':attribute mutlaka geçerli bir URL olmalıdır.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => ':attribute mutlaka bir sayı olmalıdır.',
     'password'             => 'Parola geçersiz.',
     'present'              => ':attribute mutlaka mevcut olmalıdır.',
+    'prohibited'           => ':attribute alanı kısıtlanmıştır.',
+    'prohibited_if'        => ':other alanının değeri :value olduğunda :attribute alanına veri girişi yapılamaz.',
+    'prohibited_unless'    => ':other alanı :value değerlerinin dışında olduğunda :attribute alanına veri girişi yapılamaz.',
     'regex'                => ':attribute biçimi geçersiz.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => ':attribute mutlaka gereklidir.',

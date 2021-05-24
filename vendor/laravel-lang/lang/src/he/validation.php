@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'שדה :attribute חייב להיות מסומן.',
     'active_url'           => 'שדה :attribute הוא לא כתובת אתר תקנית.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'שדה :attribute חייב להיות מספר.',
     'password'             => 'The password is incorrect.',
     'present'              => 'שדה :attribute חייב להיות קיים.',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => 'שדה :attribute בעל פורמט שאינו תקין.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => 'שדה :attribute הוא חובה.',

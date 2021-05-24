@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => ':attribute deve essere accettato.',
     'active_url'           => ':attribute non è un URL valido.',
@@ -9,7 +20,7 @@ return [
     'alpha_dash'           => ':attribute può contenere solo lettere, numeri e trattini.',
     'alpha_num'            => ':attribute può contenere solo lettere e numeri.',
     'array'                => ':attribute deve essere un array.',
-    'attached'             => 'This :attribute is already attached.',
+    'attached'             => ':attribute è già associato.',
     'before'               => ':attribute deve essere una data precedente al :date.',
     'before_or_equal'      => ':attribute deve essere una data precedente o uguale al :date.',
     'between'              => [
@@ -85,8 +96,11 @@ return [
     'numeric'              => ':attribute deve essere un numero.',
     'password'             => 'Il campo :attribute non è corretto.',
     'present'              => 'Il campo :attribute deve essere presente.',
+    'prohibited'           => ':attribute non consentito.',
+    'prohibited_if'        => ':attribute non consentito quando :other è :value.',
+    'prohibited_unless'    => ':attribute non consentito a meno che :other sia contenuto in :values.',
     'regex'                => 'Il formato del campo :attribute non è valido.',
-    'relatable'            => 'This :attribute may not be associated with this resource.',
+    'relatable'            => ':attribute non può essere associato a questa risorsa.',
     'required'             => 'Il campo :attribute è richiesto.',
     'required_if'          => 'Il campo :attribute è richiesto quando :other è :value.',
     'required_unless'      => 'Il campo :attribute è richiesto a meno che :other sia in :values.',

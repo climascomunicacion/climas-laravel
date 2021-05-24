@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'ข้อมูล :attribute ต้องผ่านการยอมรับก่อน',
     'active_url'           => 'ข้อมูล :attribute ต้องเป็น URL เท่านั้น',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'ข้อมูล :attribute ต้องเป็นตัวเลข',
     'password'             => 'The password is incorrect.',
     'present'              => 'ข้อมูล :attribute ต้องเป็นปัจจุบัน',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => 'ข้อมูล :attribute มีรูปแบบไม่ถูกต้อง',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => 'ข้อมูล :attribute จำเป็นต้องกรอก',

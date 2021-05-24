@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => '이 필드를 동의해야 합니다.',
     'active_url'           => '이 URL은 유효한 URL이 아닙니다.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => '숫자여야 합니다.',
     'password'             => '비밀번호가 잘못되었습니다.',
     'present'              => '이 필드가 있어야 합니다.',
+    'prohibited'           => 'This field is prohibited.',
+    'prohibited_if'        => 'This field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'This field is prohibited unless :other is in :values.',
     'regex'                => '형식이 올바르지 않습니다.',
     'relatable'            => 'This field may not be associated with this resource.',
     'required'             => '이 필드는 필수입니다.',

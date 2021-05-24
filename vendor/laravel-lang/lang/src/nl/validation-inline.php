@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Dit veld moet geaccepteerd zijn.',
     'active_url'           => 'Dit is geen geldige URL.',
@@ -9,7 +20,7 @@ return [
     'alpha_dash'           => 'Dit veld mag alleen letters, nummers, underscores (_) en streepjes (-) bevatten.',
     'alpha_num'            => 'Dit veld mag alleen letters en nummers bevatten.',
     'array'                => 'Dit veld moet geselecteerde elementen bevatten.',
-    'attached'             => 'This field is already attached.',
+    'attached'             => 'Dit veld is reeds gekoppeld.',
     'before'               => 'Dit moet een datum voor :date zijn.',
     'before_or_equal'      => 'Dit moet een datum voor of gelijk aan :date zijn.',
     'between'              => [
@@ -85,8 +96,11 @@ return [
     'numeric'              => 'Dit moet een nummer zijn',
     'password'             => 'Het wachtwoord is onjuist.',
     'present'              => 'Dit veld moet bestaan.',
+    'prohibited'           => 'Dit veld is verboden.',
+    'prohibited_if'        => 'Dit veld is verboden indien :other gelijk is aan :value.',
+    'prohibited_unless'    => 'Dit veld is verboden tenzij :other is aan :values.',
     'regex'                => 'Dit formaat is ongeldig.',
-    'relatable'            => 'This field may not be associated with this resource.',
+    'relatable'            => 'Dit veld mag niet gekoppeld worden aan deze bron.',
     'required'             => 'Dit veld is verplicht.',
     'required_if'          => 'Dit veld is verplicht indien :other gelijk is aan :value.',
     'required_unless'      => 'Dit veld is verplicht tenzij :other gelijk is aan :values.',

@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'A(z) :attribute el kell legyen fogadva!',
     'active_url'           => 'A(z) :attribute nem érvényes url!',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'A(z) :attribute szám kell, hogy legyen!',
     'password'             => 'A(z) :attribute jelszónak kell, hogy legyen!',
     'present'              => 'A(z) :attribute mező nem található!',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => 'A(z) :attribute formátuma érvénytelen.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => 'A(z) :attribute megadása kötelező!',

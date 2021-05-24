@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Ce champ doit être accepté.',
     'active_url'           => 'Ce n\'est pas une URL valide',
@@ -9,7 +20,7 @@ return [
     'alpha_dash'           => 'Ce champ doit contenir uniquement des lettres, des chiffres et des tirets.',
     'alpha_num'            => 'Ce champ doit contenir uniquement des chiffres et des lettres.',
     'array'                => 'Ce champ doit être un tableau.',
-    'attached'             => 'This field is already attached.',
+    'attached'             => 'Ce champ est déjà attaché.',
     'before'               => 'Ce champ doit être une date antérieure au :date.',
     'before_or_equal'      => 'Ce champ doit être une date antérieure ou égale au :date.',
     'between'              => [
@@ -85,8 +96,11 @@ return [
     'numeric'              => 'Ce champ doit contenir un nombre.',
     'password'             => 'Le mot de passe est incorrect',
     'present'              => 'Ce champ doit être présent.',
+    'prohibited'           => 'Ce champ est interdit',
+    'prohibited_if'        => 'Ce champ est interdit quand :other a la valeur :value.',
+    'prohibited_unless'    => 'Ce champ est interdit à moins que :other ait l\'une des valeurs :values.',
     'regex'                => 'Le format du champ est invalide.',
-    'relatable'            => 'This field may not be associated with this resource.',
+    'relatable'            => 'Ce champ n\'est sans doute pas associé avec cette donnée.',
     'required'             => 'Ce champ est obligatoire.',
     'required_if'          => 'Ce champ est obligatoire quand la valeur de :other est :value.',
     'required_unless'      => 'Ce champ est obligatoire sauf si :other est :values.',

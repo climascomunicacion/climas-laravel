@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => ':attribute چوقۇم قوشۇلىشىڭىز كېرەك.',
     'active_url'           => ':attribute ئىناۋەتلىك توربەت ئادىرىسى ئەمەس.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => ':attribute چوقۇم سان-سىفىر بۇلىشى كېرەك.',
     'password'             => 'The password is incorrect.',
     'present'              => ':attribute چوقۇم مەۋجۇت بۇلىشى كېرەك.',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => ':attribute ھۆججەت تىپى ئىناۋەتسىز.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => ':attribute قۇرۇق بولسا بولمايدۇ.',

@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Câmpul :attribute trebuie să fie acceptat.',
     'active_url'           => 'Câmpul :attribute nu este un URL valid.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'Câmpul :attribute trebuie să fie un număr.',
     'password'             => 'Parola este greșită.',
     'present'              => 'Câmpul :attribute trebuie să fie prezent.',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => 'Câmpul :attribute nu are un format valid.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => 'Câmpul :attribute este obligatoriu.',

@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Ова поле мора да биде прифатено.',
     'active_url'           => 'Ова не е валидна URL-адреса.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'Ова мора да биде број.',
     'password'             => 'Лозинката не е точна.',
     'present'              => 'Ова поле мора да биде присутно.',
+    'prohibited'           => 'This field is prohibited.',
+    'prohibited_if'        => 'This field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'This field is prohibited unless :other is in :values.',
     'regex'                => 'Овој формат не е валиден.',
     'relatable'            => 'This field may not be associated with this resource.',
     'required'             => 'Ова поле е задолжително.',

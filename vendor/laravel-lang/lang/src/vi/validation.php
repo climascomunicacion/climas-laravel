@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Trường :attribute phải được chấp nhận.',
     'active_url'           => 'Trường :attribute không phải là một URL hợp lệ.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'Trường :attribute phải là một số.',
     'password'             => 'Mật khẩu không đúng.',
     'present'              => 'Trường :attribute phải được cung cấp.',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => 'Trường :attribute có định dạng không hợp lệ.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => 'Trường :attribute không được bỏ trống.',

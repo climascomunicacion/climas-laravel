@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => ':attribute ला स्वीकार केला गेला पाहिजे.',
     'active_url'           => ':attribute हा एक बरोबर URL नाही आहे.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => ':attribute एक संख्या असावी.',
     'password'             => 'The password is incorrect.',
     'present'              => ':attribute फील्ड उपस्थित असावी.',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => ':attribute फॉर्मेट वैध नाही.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => ':attribute फील्ड आवश्यक आहे.',

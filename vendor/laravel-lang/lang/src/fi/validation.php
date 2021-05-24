@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Kenttä :attribute tulee hyväksyä.',
     'active_url'           => 'Kentän :attribute tulee olla validi URL-osoite.',
@@ -85,6 +96,9 @@ return [
     'numeric'              => 'Kentän :attribute arvon tulee olla numero.',
     'password'             => 'The password is incorrect.',
     'present'              => 'Kenttä :attribute vaaditaan.',
+    'prohibited'           => 'The :attribute field is prohibited.',
+    'prohibited_if'        => 'The :attribute field is prohibited when :other is :value.',
+    'prohibited_unless'    => 'The :attribute field is prohibited unless :other is in :values.',
     'regex'                => 'Kentän :attribute arvo on väärää muotoa.',
     'relatable'            => 'This :attribute may not be associated with this resource.',
     'required'             => 'Kenttä :attribute vaaditaan.',

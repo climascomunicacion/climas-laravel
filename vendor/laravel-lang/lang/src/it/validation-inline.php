@@ -1,5 +1,16 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
+
 return [
     'accepted'             => 'Deve essere accettato.',
     'active_url'           => 'Non è un URL valido.',
@@ -9,7 +20,7 @@ return [
     'alpha_dash'           => 'Può contenere solo lettere, numeri e trattini.',
     'alpha_num'            => 'Può contenere solo lettere e numeri.',
     'array'                => 'Deve essere un array.',
-    'attached'             => 'This field is already attached.',
+    'attached'             => 'Campo già associato.',
     'before'               => 'Deve essere una data precedente al :date.',
     'before_or_equal'      => 'Deve essere una data precedente o uguale al :date.',
     'between'              => [
@@ -85,8 +96,11 @@ return [
     'numeric'              => 'Deve essere un numero.',
     'password'             => 'Password errata.',
     'present'              => 'Devi specificare un valore.',
+    'prohibited'           => 'Non consentito.',
+    'prohibited_if'        => 'Non consentito quando :other è :value.',
+    'prohibited_unless'    => 'Non consentito a meno che :other sia contenuto in :values.',
     'regex'                => 'Formato non valido.',
-    'relatable'            => 'This field may not be associated with this resource.',
+    'relatable'            => 'Non puoi associarlo a questa risorsa.',
     'required'             => 'Obbligatorio.',
     'required_if'          => 'Obbligatorio quando :other è :value.',
     'required_unless'      => 'Obbligatorio a meno che :other sia :values.',
