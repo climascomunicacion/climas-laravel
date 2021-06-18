@@ -66,14 +66,14 @@
                     @if(!Session::has('success'))
                     <div >
                         <label for="nombre">@lang('Nombre')</label>
-                        <input id="nombre" name="nombre" type="text" value="{{ old('nombre') }}" placeholder="nombre" />
+                        <input id="nombre" name="nombre" type="text" value="{{ old('nombre') }}" placeholder="@lang('nombre')" />
                         @if ($errors->has('nombre'))
                         <p class="error">{{ $errors->first('nombre') }}</p>
                         @endif
                     </div>
                     <div >
                         <label for="email">@lang('email')</label>
-                        <input id="email" name="email" type="text" value="{{ old('email') }}" placeholder="email" />
+                        <input id="email" name="email" type="text" value="{{ old('email') }}" placeholder="@lang('email')" />
                         @if ($errors->has('email'))
                         <p class="error">{{ $errors->first('email') }}</p>
                         @endif
@@ -98,7 +98,7 @@
                         <input class=" button-white button bg-pink" type="submit" value="Enviar" id="enviar" name="enviar">
                     </div>
                 -->
-                    <button class=" button-white button bg-pink" type="submit" value="Enviar" id="enviar" name="enviar"><span>enviar</span></button>
+                    <button class=" button-white button bg-pink" type="submit" value="Enviar" id="enviar" name="enviar"><span>@lang('enviar')</span></button>
                 </button>
                 @endif
             </form>
