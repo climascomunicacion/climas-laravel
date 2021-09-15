@@ -68,8 +68,7 @@
                         <label for="nombre">@lang('Nombre')</label>
                         <input id="nombre" name="nombre" type="text" value="{{ old('nombre') }}" placeholder="@lang('nombre')" />
                         @if ($errors->has('nombre'))
-                        <p class="error">{{ $errors->first("@lang('nombre')") }}</p>
-                        <!--<p class="error"></p>{{ $errors->first('nombre') }}</p>-->
+                        <p class="error"></p>{{ $errors->first('nombre') }}</p>
                         @endif
                     </div>
                     <div >
