@@ -11,7 +11,8 @@
 <section class="page-404">
     <article>
         <div class="container ">
-        	<img src="img/500.gif">
+        	<img src="{{ asset('img/500.gif') }}">
+            
             <div class="txt">
                 <h2>Upsss</h2>
                 <p>@lang('Que no panda el cúnico. Pincha abajo y vuelves con nosotras en un periquete.')</p>
