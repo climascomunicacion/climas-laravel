@@ -68,21 +68,21 @@
                         <label for="nombre">@lang('Nombre')</label>
                         <input id="nombre" name="nombre" type="text" value="{{ old('nombre') }}" placeholder="@lang('nombre')" />
                         @if ($errors->has('nombre'))
-                        <p class="error">{{ $errors->first('nombre') }}</p>
+                        <p class="error">{{ $errors->first('@lang('nombre')') }}</p>
                         @endif
                     </div>
                     <div >
                         <label for="email">@lang('email')</label>
                         <input id="email" name="email" type="text" value="{{ old('email') }}" placeholder="@lang('email')" />
                         @if ($errors->has('email'))
-                        <p class="error">{{ $errors->first('email') }}</p>
+                        <p class="error">{{ $errors->first('@lang('email')') }}</p>
                         @endif
                     </div>
                     <div class="textarea">
                         <label for="comentario">@lang('comentario')</label> 
                         <textarea name="comentario" id="comentario" rows="10">{{ old('comentario') }}</textarea>
                         @if ($errors->has('comentario'))
-                        <p class="error">{{ $errors->first('comentario') }}</p>
+                        <p class="error">{{ $errors->first('@lang('comentario')') }}</p>
                         @endif
                     </div>
                     <div class="check">
