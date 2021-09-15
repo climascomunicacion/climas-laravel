@@ -3,14 +3,14 @@
         <div class="container">
             <ul>
                 <li><p class="text-pink">© CLI +</p></li>
-                <li><a href="{{ localized_route('legal') }}">Información legal</a></li>
-                <li><a href="{{ localized_route('cookies') }}">Cookies</a></li>
+                <li><a href="{{ localized_route('legal') }}">@lang('Información legal')</a></li>
+                <li><a href="{{ localized_route('cookies') }}">@lang('Cookies')</a></li>
             </ul>
             <ul>
-                <li><a href="{{ localized_route('/') }}">Inicio</a></li>
-                <li><a href="{{ localized_route('agencia') }}">CLI +</a></li>
-                <li><a href="{{ localized_route('services') }}">Servicios</a></li>
-                <li><a href="{{ localized_route('contact') }}">Contacto</a></li>
+                <li><a href="{{ localized_route('/') }}">@lang('Inicio')</a></li>
+                <li><a href="{{ localized_route('agencia') }}">@lang('CLI +')</a></li>
+                <li><a href="{{ localized_route('services') }}">@lang('Servicios')</a></li>
+                <li><a href="{{ localized_route('contact') }}">@lang('Contacto')</a></li>
             </ul>
         </div>
         <div class="container">
