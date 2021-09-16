@@ -185,5 +185,8 @@ return [
         'message'               => 'mezua',
         'available'             => 'erabilgarria',
         'size'                  => 'neurria',
+        'nombre'                  => 'izena',
+        'comentario'                  => 'mezua',
+        'email'                  => 'email-a',
     ],
 ];
