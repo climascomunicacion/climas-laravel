@@ -228,5 +228,6 @@ return [
         'message'               => 'mensaje',
         'price'                 => 'precio',
         'answer'                => 'respuesta',
+        'nombre'                => 'izena',
     ],
 ];
