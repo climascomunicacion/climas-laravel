@@ -23,8 +23,10 @@
                     <li><a class="@if (Str::contains(Route::currentRouteName(), 'agencia')) active @endif" href="{{ localized_route('agencia') }}">@lang('cli +')</a></li>
                     <li><a class="@if (Str::contains(Route::currentRouteName(), 'services')) active @endif" href="{{ localized_route('services') }}">@lang('servicios')</a></li>
                     <li><a class="@if (Str::contains(Route::currentRouteName(), 'contact')) active @endif" href="{{ localized_route('contact') }}">@lang('contacto')</a></li>
-                    <li><a href="{{ localized_route(substr(Route::currentRouteName(), 3), [], 'es') }}" class>ES</a></li>
-                    <li><a href="{{ localized_route(substr(Route::currentRouteName(), 3), [], 'eu') }}" class>EU</a></li>
+                  </ul>
+                  <ul class="lang">
+                    <li><a href="{{ localized_route(substr(Route::currentRouteName(), 3), [], 'es') }}" class="">ES</a></li>
+                    <li><a href="{{ localized_route(substr(Route::currentRouteName(), 3), [], 'eu') }}" class="">EU</a></li>
                   </ul>
             </nav>
         </div>

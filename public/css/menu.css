@@ -4,11 +4,11 @@
 .navigation .container-menu {margin-left: 35px;display: flex;align-self: self-end;}
 
 
-
-.navigation .lang {display: none !important;}
+.navigation nav {display: flex;}
+/*.navigation .lang {display: none !important;}
 .navigation .lang {display: flex;margin:0 0 0 30px; color:#273157;font-size: 12px;}
 .navigation .lang .menu-lang li {color:#fff; margin: 0 7px; font-size: 12px; }
-.navigation .lang .menu-lang li a {color:#273157}
+.navigation .lang .menu-lang li a {color:#273157}*/
 .navigation ul.menu  {padding: 0;display: flex;margin: 22px 0;}
 .navigation ul.menu li  {margin: 0 15px; display: inline-block; transition: all 0.2s ease; font-size: 14px; color: #273157;text-transform: uppercase; vertical-align: middle;}
 .navigation ul.menu li a {position: relative; padding-bottom: 4px;}
@@ -16,6 +16,9 @@
 .navigation ul.menu li a.active:after {content: ""; position: absolute; bottom: 0; left: 0; width: 20px; height: 2px; background: #ce6a6b; -webkit-transition: all .5s ease; transition: all .5s ease;}
 .navigation ul.menu li a:after {content: ""; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: #273157; -webkit-transition: all .5s ease; transition: all .5s ease;}
 .navigation ul.menu li a:hover:after {width: 20px;}
+.navigation ul.lang { display: flex; margin: 22px 0;}
+.navigation ul.lang li {padding:0 10px; font-size: 12px;}
+.navigation ul.lang li:first-child { border-right: #273157 1px solid;} 
 
 /*menú para las páginas que NO es home*/
 .navigation.navigation-white {background: none; position: absolute;}
